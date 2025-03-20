@@ -125,38 +125,6 @@ def linkedin_login():
     )
     return redirect(auth_url)
 
-# @app.route('/api/linkedin-callback')
-# def linkedin_callback():
-#     code = request.args.get('code')
-#     if not code:
-#         return jsonify({'success': False, 'message': 'Authorization failed'}), 400
-    
-#     token_url = "https://www.linkedin.com/oauth/v2/accessToken"
-#     payload = {
-#         'grant_type': 'authorization_code',
-#         'code': code,
-#         'redirect_uri': REDIRECT_URI,
-#         'client_id': LINKEDIN_CLIENT_ID,
-#         'client_secret': LINKEDIN_CLIENT_SECRET
-#     }
-#     response = requests.post(token_url, data=payload)
-#     if response.status_code != 200:
-#         return jsonify({'success': False, 'message': 'Token exchange failed'}), 400
-    
-#     access_token = response.json().get('access_token')
-    
-#     profile_url = "https://api.linkedin.com/v2/me"
-#     headers = {"Authorization": f"Bearer {access_token}"}
-#     profile_response = requests.get(profile_url, headers=headers)
-#     if profile_response.status_code != 200:
-#         return jsonify({'success': False, 'message': 'Profile fetch failed'}), 400
-    
-#     user_id = profile_response.json().get('id')
-#     user_urn = f"urn:li:person:{user_id}"
-#     USER_DATA[user_urn] = {'access_token': access_token}
-    
-#     return redirect("http://localhost:3000/?authenticated=true")
-
 @app.route('/api/linkedin-callback')
 def linkedin_callback():
     code = request.args.get('code')
