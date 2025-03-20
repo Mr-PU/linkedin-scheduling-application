@@ -1,0 +1,8 @@
+flask
+flask-cors
+tweepy
+crewai
+openai
+python-dotenv
+requests
+flask-socketio

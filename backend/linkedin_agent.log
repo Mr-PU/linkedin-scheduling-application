@@ -1,0 +1,841 @@
+2025-03-19 11:15:07,477 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.144:5000
+2025-03-19 11:15:07,478 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-19 11:15:07,478 - INFO -  * Restarting with stat
+2025-03-19 11:15:10,361 - WARNING -  * Debugger is active!
+2025-03-19 11:15:10,362 - INFO -  * Debugger PIN: 144-034-646
+2025-03-19 11:16:40,093 - INFO - 127.0.0.1 - - [19/Mar/2025 11:16:40] "OPTIONS /api/login HTTP/1.1" 200 -
+2025-03-19 11:16:40,099 - INFO - 127.0.0.1 - - [19/Mar/2025 11:16:40] "POST /api/login HTTP/1.1" 200 -
+2025-03-19 11:16:45,396 - INFO - 127.0.0.1 - - [19/Mar/2025 11:16:45] "OPTIONS /api/generate-posts HTTP/1.1" 200 -
+2025-03-19 11:16:45,419 - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-03-19 11:16:48,643 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 11:16:48,659 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-19 11:16:48,664 - INFO - 127.0.0.1 - - [19/Mar/2025 11:16:48] "POST /api/generate-posts HTTP/1.1" 200 -
+2025-03-19 11:17:09,391 - INFO - 127.0.0.1 - - [19/Mar/2025 11:17:09] "GET /api/scheduled-posts HTTP/1.1" 200 -
+2025-03-19 11:17:38,662 - INFO - 127.0.0.1 - - [19/Mar/2025 11:17:38] "OPTIONS /api/schedule-post HTTP/1.1" 200 -
+2025-03-19 11:17:38,668 - INFO - 127.0.0.1 - - [19/Mar/2025 11:17:38] "POST /api/schedule-post HTTP/1.1" 200 -
+2025-03-19 11:17:38,678 - INFO - 127.0.0.1 - - [19/Mar/2025 11:17:38] "GET /api/scheduled-posts HTTP/1.1" 200 -
+2025-03-19 11:17:43,014 - INFO - 127.0.0.1 - - [19/Mar/2025 11:17:43] "GET /api/scheduled-posts HTTP/1.1" 200 -
+2025-03-19 11:18:43,019 - INFO - 127.0.0.1 - - [19/Mar/2025 11:18:43] "GET /api/scheduled-posts HTTP/1.1" 200 -
+2025-03-19 11:19:43,014 - INFO - 127.0.0.1 - - [19/Mar/2025 11:19:43] "GET /api/scheduled-posts HTTP/1.1" 200 -
+2025-03-19 11:20:43,017 - INFO - 127.0.0.1 - - [19/Mar/2025 11:20:43] "GET /api/scheduled-posts HTTP/1.1" 200 -
+2025-03-19 11:21:43,019 - INFO - 127.0.0.1 - - [19/Mar/2025 11:21:43] "GET /api/scheduled-posts HTTP/1.1" 200 -
+2025-03-19 11:33:32,551 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.144:5000
+2025-03-19 11:33:32,552 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-19 11:33:32,552 - INFO -  * Restarting with stat
+2025-03-19 11:33:33,553 - INFO - Retrieved Person URN: urn:li:person:83tFlkfvbJ
+2025-03-19 11:33:34,500 - ERROR - Failed to post: {"status":403,"serviceErrorCode":100,"code":"ACCESS_DENIED","message":"Not enough permissions to access: ugcPosts.CREATE.NO_VERSION"}
+2025-03-19 11:33:34,750 - WARNING -  * Debugger is active!
+2025-03-19 11:33:34,753 - INFO -  * Debugger PIN: 144-034-646
+2025-03-19 11:33:35,760 - INFO - Retrieved Person URN: urn:li:person:83tFlkfvbJ
+2025-03-19 11:33:36,674 - ERROR - Failed to post: {"status":403,"serviceErrorCode":100,"code":"ACCESS_DENIED","message":"Not enough permissions to access: ugcPosts.CREATE.NO_VERSION"}
+2025-03-19 11:33:39,732 - INFO - 127.0.0.1 - - [19/Mar/2025 11:33:39] "OPTIONS /api/login HTTP/1.1" 200 -
+2025-03-19 11:33:39,737 - INFO - 127.0.0.1 - - [19/Mar/2025 11:33:39] "POST /api/login HTTP/1.1" 200 -
+2025-03-19 11:34:28,453 - INFO - 127.0.0.1 - - [19/Mar/2025 11:34:28] "OPTIONS /api/generate-posts HTTP/1.1" 200 -
+2025-03-19 11:34:28,474 - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-03-19 11:34:31,673 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 11:34:31,696 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-19 11:34:31,704 - INFO - 127.0.0.1 - - [19/Mar/2025 11:34:31] "POST /api/generate-posts HTTP/1.1" 200 -
+2025-03-19 11:50:15,155 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.144:5000
+2025-03-19 11:50:15,156 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-19 11:50:15,156 - INFO -  * Restarting with stat
+2025-03-19 11:50:18,527 - WARNING -  * Debugger is active!
+2025-03-19 11:50:18,527 - INFO -  * Debugger PIN: 144-034-646
+2025-03-19 11:51:31,564 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.144:5000
+2025-03-19 11:51:31,565 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-19 11:51:31,565 - INFO -  * Restarting with stat
+2025-03-19 11:51:33,736 - WARNING -  * Debugger is active!
+2025-03-19 11:51:33,736 - INFO -  * Debugger PIN: 144-034-646
+2025-03-19 11:51:38,759 - INFO - 127.0.0.1 - - [19/Mar/2025 11:51:38] "[32mGET /api/linkedin-login HTTP/1.1[0m" 302 -
+2025-03-19 11:53:01,433 - INFO - 127.0.0.1 - - [19/Mar/2025 11:53:01] "[32mGET /api/linkedin-login HTTP/1.1[0m" 302 -
+2025-03-19 11:53:36,377 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.144:5000
+2025-03-19 11:53:36,377 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-19 11:53:36,378 - INFO -  * Restarting with stat
+2025-03-19 11:53:38,653 - WARNING -  * Debugger is active!
+2025-03-19 11:53:38,653 - INFO -  * Debugger PIN: 144-034-646
+2025-03-19 11:53:42,478 - INFO - 127.0.0.1 - - [19/Mar/2025 11:53:42] "[32mGET /api/linkedin-login HTTP/1.1[0m" 302 -
+2025-03-19 12:15:08,531 - INFO - 127.0.0.1 - - [19/Mar/2025 12:15:08] "[32mGET /api/linkedin-login HTTP/1.1[0m" 302 -
+2025-03-19 12:16:25,790 - INFO -  * Detected change in '/home/prashant/Documents/work-related/projects/test/linkedin-agent/backend/app.py', reloading
+2025-03-19 12:16:26,122 - INFO -  * Restarting with stat
+2025-03-19 12:16:28,234 - WARNING -  * Debugger is active!
+2025-03-19 12:16:28,234 - INFO -  * Debugger PIN: 144-034-646
+2025-03-19 12:16:34,564 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.144:5000
+2025-03-19 12:16:34,564 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-19 12:16:34,565 - INFO -  * Restarting with stat
+2025-03-19 12:16:38,132 - WARNING -  * Debugger is active!
+2025-03-19 12:16:38,132 - INFO -  * Debugger PIN: 144-034-646
+2025-03-19 12:16:52,680 - INFO - 127.0.0.1 - - [19/Mar/2025 12:16:52] "[32mGET /api/linkedin-login HTTP/1.1[0m" 302 -
+2025-03-19 12:17:39,290 - INFO -  * Detected change in '/home/prashant/Documents/work-related/projects/test/linkedin-agent/backend/app.py', reloading
+2025-03-19 12:17:39,816 - INFO -  * Restarting with stat
+2025-03-19 12:17:42,761 - WARNING -  * Debugger is active!
+2025-03-19 12:17:42,761 - INFO -  * Debugger PIN: 144-034-646
+2025-03-19 12:17:47,707 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.144:5000
+2025-03-19 12:17:47,708 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-19 12:17:47,708 - INFO -  * Restarting with stat
+2025-03-19 12:17:50,914 - WARNING -  * Debugger is active!
+2025-03-19 12:17:50,914 - INFO -  * Debugger PIN: 144-034-646
+2025-03-19 12:18:00,669 - INFO - 127.0.0.1 - - [19/Mar/2025 12:18:00] "[32mGET /api/linkedin-login HTTP/1.1[0m" 302 -
+2025-03-19 12:21:49,978 - INFO - 127.0.0.1 - - [19/Mar/2025 12:21:49] "[32mGET /api/linkedin-login HTTP/1.1[0m" 302 -
+2025-03-19 12:24:59,972 - INFO - 127.0.0.1 - - [19/Mar/2025 12:24:59] "[32mGET /api/linkedin-login HTTP/1.1[0m" 302 -
+2025-03-19 12:27:03,460 - INFO -  * Detected change in '/home/prashant/Documents/work-related/projects/test/linkedin-agent/backend/app.py', reloading
+2025-03-19 12:27:03,779 - INFO -  * Restarting with stat
+2025-03-19 12:27:05,872 - WARNING -  * Debugger is active!
+2025-03-19 12:27:05,872 - INFO -  * Debugger PIN: 144-034-646
+2025-03-19 12:27:15,959 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.144:5000
+2025-03-19 12:27:15,959 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-19 12:27:15,959 - INFO -  * Restarting with stat
+2025-03-19 12:27:18,058 - WARNING -  * Debugger is active!
+2025-03-19 12:27:18,058 - INFO -  * Debugger PIN: 144-034-646
+2025-03-19 12:27:31,029 - INFO - 127.0.0.1 - - [19/Mar/2025 12:27:31] "[32mGET /api/linkedin-login HTTP/1.1[0m" 302 -
+2025-03-19 12:28:11,169 - INFO - 127.0.0.1 - - [19/Mar/2025 12:28:11] "[32mGET /api/linkedin-login HTTP/1.1[0m" 302 -
+2025-03-19 12:28:31,034 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.144:5000
+2025-03-19 12:28:31,034 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-19 12:28:31,035 - INFO -  * Restarting with stat
+2025-03-19 12:28:34,161 - WARNING -  * Debugger is active!
+2025-03-19 12:28:34,161 - INFO -  * Debugger PIN: 144-034-646
+2025-03-19 12:28:40,200 - INFO - 127.0.0.1 - - [19/Mar/2025 12:28:40] "[32mGET /api/linkedin-login HTTP/1.1[0m" 302 -
+2025-03-19 12:31:18,319 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.144:5000
+2025-03-19 12:31:18,319 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-19 12:31:18,320 - INFO -  * Restarting with stat
+2025-03-19 12:31:21,915 - WARNING -  * Debugger is active!
+2025-03-19 12:31:21,916 - INFO -  * Debugger PIN: 144-034-646
+2025-03-19 12:31:25,029 - INFO - 127.0.0.1 - - [19/Mar/2025 12:31:25] "[32mGET /api/linkedin-login HTTP/1.1[0m" 302 -
+2025-03-19 12:31:29,419 - INFO - 127.0.0.1 - - [19/Mar/2025 12:31:29] "[32mGET /api/linkedin-callback?code=AQRp81JNAKeQOx2TvVGviIlx4HNkvBCxn9-dr1WCbY90YkNvSjSgDxD0RjcDUZhnfyqWKM3P2pb-QgmIqbNBRA-KwKxbryJ8maLpK7Nq3qovEt6aJiox28zge-p8SzIZxQK7rhSTg_jmxKUvIqTOv6kp3LMKH5SbC3hUb6QiIbgtLi6n1Wr1WeVgWh0gS2CeWLXsQ_A7JFH-6NC9Nbw HTTP/1.1[0m" 302 -
+2025-03-19 12:31:29,669 - INFO - 127.0.0.1 - - [19/Mar/2025 12:31:29] "[31m[1mGET /api/analytics?user_urn=temp HTTP/1.1[0m" 400 -
+2025-03-19 12:31:34,904 - INFO - 127.0.0.1 - - [19/Mar/2025 12:31:34] "[32mGET /api/linkedin-login HTTP/1.1[0m" 302 -
+2025-03-19 12:31:36,907 - INFO - 127.0.0.1 - - [19/Mar/2025 12:31:36] "[32mGET /api/linkedin-callback?code=AQRYPdm88KFaZC37LBtJSa56XToC6E8VyZnHBM3ZKHkoqBLMv1C8soxHudgGQ8i33iTkTQKzqW2Qg9wOVf81o0Vau7IyN-y2bTeQU9KyxOc5Mg60G_gUmw1H0nj4HI6OkRWZWE3fNOwCyRaI9x4hHOcFTfGTrZ08Ue_oReJoqJUCAJXH4l_hUPK4BfHe1vI8D63BauGDNmGJ-7jzUb8 HTTP/1.1[0m" 302 -
+2025-03-19 12:31:37,048 - INFO - 127.0.0.1 - - [19/Mar/2025 12:31:37] "[31m[1mGET /api/analytics?user_urn=temp HTTP/1.1[0m" 400 -
+2025-03-19 12:31:42,972 - INFO - 127.0.0.1 - - [19/Mar/2025 12:31:42] "[32mGET /api/linkedin-login HTTP/1.1[0m" 302 -
+2025-03-19 12:31:45,048 - INFO - 127.0.0.1 - - [19/Mar/2025 12:31:45] "[32mGET /api/linkedin-callback?code=AQSvc0iMYa_zMOU8dGXt1wP93cVFK1iCG1EQXHqzsc0rqeIAAv2DQw-9X1Sm8iRBF6RCyNhkFXjj3xMLnJ3TOSQsyVm2YDiboT-WsZ5nO0IRSKXbvV9qp4T-ZJqCejtZsS2AGBRs8sRUGMLEjZ2n8edEmggXOuM9k0WYSy-a2OoKqvTX5ffi_H3G3kweKRmIgHNhMtcclMtDGzjSCgQ HTTP/1.1[0m" 302 -
+2025-03-19 12:31:45,235 - INFO - 127.0.0.1 - - [19/Mar/2025 12:31:45] "[31m[1mGET /api/analytics?user_urn=temp HTTP/1.1[0m" 400 -
+2025-03-19 12:32:02,567 - INFO - 127.0.0.1 - - [19/Mar/2025 12:32:02] "[32mGET /api/linkedin-login HTTP/1.1[0m" 302 -
+2025-03-19 12:32:04,346 - INFO - 127.0.0.1 - - [19/Mar/2025 12:32:04] "[32mGET /api/linkedin-callback?code=AQTld2b5lC9xrsaDUApDUZEsFDaYrsATMmck6kzC21Zd25TniZcRDOTE-F10fy42vBI7_Jz51w5h91IPEheks4UzmEoGZzjdNxM9Oi0IwbkDXFLf-Pe8fwTNnAVLS2dVHvBHdb3wyGm-KCYJAS24BVGZL_gpbbgHWbklwrh7hZX7j_H_636gEdknCVbGXMLCMuek5xrD0aRRXY9JWYk HTTP/1.1[0m" 302 -
+2025-03-19 12:32:04,475 - INFO - 127.0.0.1 - - [19/Mar/2025 12:32:04] "[31m[1mGET /api/analytics?user_urn=temp HTTP/1.1[0m" 400 -
+2025-03-19 12:32:15,495 - INFO - 127.0.0.1 - - [19/Mar/2025 12:32:15] "[32mGET /api/linkedin-login HTTP/1.1[0m" 302 -
+2025-03-19 12:32:17,580 - INFO - 127.0.0.1 - - [19/Mar/2025 12:32:17] "[32mGET /api/linkedin-callback?code=AQSWXcpTnKzCLnDbMoMXnk5FMk1rdlzct8pjsArZqKi46LJ40pmUH8Yr0aOWNJUuH-JB1zLld1BB1K55cuZoZEFhQvkNGWX7LipDWCUYM03tbuatbIdFMAKIhpGn6Em7T6e8nQv5-BZE5M2WwD65nzEv8drc68kMk2KW1qd3Pa6XiBaDgibp8E-Zo5lW64wTH7_qtB_BYUDqzij2dSk HTTP/1.1[0m" 302 -
+2025-03-19 12:32:17,708 - INFO - 127.0.0.1 - - [19/Mar/2025 12:32:17] "[31m[1mGET /api/analytics?user_urn=temp HTTP/1.1[0m" 400 -
+2025-03-19 12:32:20,169 - INFO - 127.0.0.1 - - [19/Mar/2025 12:32:20] "[32mGET /api/linkedin-login HTTP/1.1[0m" 302 -
+2025-03-19 12:32:22,046 - INFO - 127.0.0.1 - - [19/Mar/2025 12:32:22] "[32mGET /api/linkedin-callback?code=AQShUnnL6xyXEgzPFfqn1qhaET3finq779otI65_xia0uUSPkplbhLEeJycFBlrKe39sjndFqUSfXLfbHtfpd3EH2nZc-TnwjLfhG7-2h9ssSWnxNZlPnBzKDPEPvaOwAVOQuyKPiO6HtWc9zNa-GHhiKmVQL4z79dYzg_L2pPRKBK9KuvcqKzx0p9N6ezXT9cbgHtP98svONcmVz-I HTTP/1.1[0m" 302 -
+2025-03-19 12:32:22,210 - INFO - 127.0.0.1 - - [19/Mar/2025 12:32:22] "[31m[1mGET /api/analytics?user_urn=temp HTTP/1.1[0m" 400 -
+2025-03-19 12:33:25,499 - INFO - 127.0.0.1 - - [19/Mar/2025 12:33:25] "[32mGET /api/linkedin-login HTTP/1.1[0m" 302 -
+2025-03-19 12:33:58,313 - INFO - 127.0.0.1 - - [19/Mar/2025 12:33:58] "[32mGET /api/linkedin-login HTTP/1.1[0m" 302 -
+2025-03-19 12:34:31,147 - INFO - 127.0.0.1 - - [19/Mar/2025 12:34:31] "[32mGET /api/linkedin-callback?code=AQQMxBMm6nekG6ebndNXmXa01q7n6Fp01g5ik8aE2v36WjEJrsng4ywFWnyQ3yyPuaiakVdMLA75hsyys5OABLQLPrrw6cDRMWKgWAhzUpqGcJDpCIOq7ixrw8O5I6_k5ASUOvFeAzxskdNi3Cds-KMtuqiZxyBNBLgTH7NJnFJDPhLRoP8lwDWbubyt7SO5frpan5mTAqDfb-Z3PMA HTTP/1.1[0m" 302 -
+2025-03-19 12:34:31,500 - INFO - 127.0.0.1 - - [19/Mar/2025 12:34:31] "[31m[1mGET /api/analytics?user_urn=temp HTTP/1.1[0m" 400 -
+2025-03-19 12:40:44,563 - INFO -  * Detected change in '/home/prashant/Documents/work-related/projects/test/linkedin-agent/backend/app.py', reloading
+2025-03-19 12:40:44,875 - INFO -  * Restarting with stat
+2025-03-19 12:40:46,962 - WARNING -  * Debugger is active!
+2025-03-19 12:40:46,963 - INFO -  * Debugger PIN: 144-034-646
+2025-03-19 12:41:25,618 - INFO - 127.0.0.1 - - [19/Mar/2025 12:41:25] "[32mGET /api/linkedin-login HTTP/1.1[0m" 302 -
+2025-03-19 12:41:27,567 - INFO - 127.0.0.1 - - [19/Mar/2025 12:41:27] "[32mGET /api/linkedin-callback?code=AQRDtm5pw_Z7IBn2ZrMe3LfrhZVsELav238-CG9Tu7kNr3tu2dQ1TdQyHJGEwq_9rzpEWjupd1WeLJEAhdyb-KGXU8TFGlD1ro3BVIkFTZiH49G00H2SmoOPWvMD2Oz9f_qtX00txcUeqUwBur8yG_IKrUZ5ElxlyzyXsRnbLk4QEr5gMob4r4-Jg5_EjsNZ2PDldGrJrFr-tgrdsNs HTTP/1.1[0m" 302 -
+2025-03-19 12:41:27,777 - INFO - 127.0.0.1 - - [19/Mar/2025 12:41:27] "GET /api/analytics?user_urn=urn:li:person:jlfTnUqZY- HTTP/1.1" 200 -
+2025-03-19 12:42:04,030 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.144:5000
+2025-03-19 12:42:04,030 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-19 12:42:04,030 - INFO -  * Restarting with stat
+2025-03-19 12:42:06,131 - WARNING -  * Debugger is active!
+2025-03-19 12:42:06,131 - INFO -  * Debugger PIN: 144-034-646
+2025-03-19 12:42:15,198 - INFO - 127.0.0.1 - - [19/Mar/2025 12:42:15] "[32mGET /api/linkedin-login HTTP/1.1[0m" 302 -
+2025-03-19 12:42:17,219 - INFO - 127.0.0.1 - - [19/Mar/2025 12:42:17] "[32mGET /api/linkedin-callback?code=AQTbZFRr9EOSntRW995bbcdOIjd9-UvxyOBPew3xOPa3xzIFnIA0J3hDjjZ1TfN7F9bapcZpS1x-CuTq4--7ZTYbkW4HbHS7-zwHTTKjKyU24cX7a60d5uppsrMXX83R8XPgSdlAGgJ4U12OEn8U0N2AuU5jQHInzClMYPPze3DABynx8JLunDcPD83XDfJGJLZYy1TXeB1aYiYCZ9k HTTP/1.1[0m" 302 -
+2025-03-19 12:42:17,419 - INFO - 127.0.0.1 - - [19/Mar/2025 12:42:17] "GET /api/analytics?user_urn=urn:li:person:jlfTnUqZY- HTTP/1.1" 200 -
+2025-03-19 12:47:06,343 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.144:5000
+2025-03-19 12:47:06,343 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-19 12:47:06,344 - INFO -  * Restarting with stat
+2025-03-19 12:47:09,823 - WARNING -  * Debugger is active!
+2025-03-19 12:47:09,824 - INFO -  * Debugger PIN: 144-034-646
+2025-03-19 12:47:20,621 - INFO - 127.0.0.1 - - [19/Mar/2025 12:47:20] "[32mGET /api/linkedin-login HTTP/1.1[0m" 302 -
+2025-03-19 12:47:36,007 - INFO - 127.0.0.1 - - [19/Mar/2025 12:47:36] "[32mGET /api/linkedin-callback?code=AQQH0z4Y3SS8iBIV2mR-moOqhMcBeA7HkLK1Q0Nmz3qky1AiyOXcHXQXlInVEv9lviuE-JekJTL-LTJ4vzdemnSMoEjFZzO_7NkY9rLrVyxCcTNKA2jvo4Adb093ejOJAvbVvXG7lj2VhZtMs0iK1rAQqTq9520eYkmgjEZHwC6z685sClxL7R7BYAqm_styfzKOtTARh2CZ0xio2CI HTTP/1.1[0m" 302 -
+2025-03-19 12:47:36,605 - INFO - 127.0.0.1 - - [19/Mar/2025 12:47:36] "GET /api/analytics?user_urn=urn:li:person:83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 12:47:38,784 - INFO - 127.0.0.1 - - [19/Mar/2025 12:47:38] "[32mGET /api/linkedin-login HTTP/1.1[0m" 302 -
+2025-03-19 12:47:40,625 - INFO - 127.0.0.1 - - [19/Mar/2025 12:47:40] "[32mGET /api/linkedin-callback?code=AQRLgVk4nw_LnrzWaM2h_2KPh-nsHqm-wDHUM8GHuQ1cxz46bwIUVhmwQfw1bZM_84vlREwrRFIaa8E8Qhm37onaQPzdys_2qFxlRuWAVzRXciFPoBOLyZVyvPziVMshD2TAkW3qsvaV3sJlps74ao0X6qdWhn9v61vAKPb1sy5I8yWWdPX7Sett-VL5tq1LS8JZhvnsfVMgkHtltD4 HTTP/1.1[0m" 302 -
+2025-03-19 12:47:40,858 - INFO - 127.0.0.1 - - [19/Mar/2025 12:47:40] "GET /api/analytics?user_urn=urn:li:person:83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 15:23:02,010 - INFO - 127.0.0.1 - - [19/Mar/2025 15:23:02] "[32mGET /api/linkedin-login HTTP/1.1[0m" 302 -
+2025-03-19 15:23:09,727 - INFO - 127.0.0.1 - - [19/Mar/2025 15:23:09] "[32mGET /api/linkedin-callback?code=AQQGXPKckOZ40JPMC1nTa6s6stWQmbOd18NKQJzdV9TlDaxS_0DOHu8deeEcRNHy2K6Zap8JSNuohA9uiSaJAMsiTslWJ_i0e2lx4lKpDz1zSWAXHi1iEmro4IZn-i9saxkUnuFkJZHeXpIDVvWTIxAqUJaKpyVi6o-92NJy2t2GoGi5opLtWcu_Fr2tzaeDSJZjcwNBDF2sRSYHXqU HTTP/1.1[0m" 302 -
+2025-03-19 15:23:10,075 - INFO - 127.0.0.1 - - [19/Mar/2025 15:23:10] "GET /api/analytics?user_urn=urn:li:person:83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 15:23:47,626 - INFO - 127.0.0.1 - - [19/Mar/2025 15:23:47] "[32mGET /api/linkedin-login HTTP/1.1[0m" 302 -
+2025-03-19 15:23:49,510 - INFO - 127.0.0.1 - - [19/Mar/2025 15:23:49] "[32mGET /api/linkedin-callback?code=AQQOJg5N4sbsXbj2YoD9weqXYmh0doBX8s6ncG60_yE__AyGabu5C8ERWkjOzEfE-OTTnwXRrpJ7EFyEjYxiIlxZG3DeKhqoeojtqtSxGXNeFuVhpgc_TxzN-zKhvRecmHBRrGAD9oeS7Tnm97r61m8DeS4-L-xD7t8DEH7wCCRbNGM4IaehE5pzlPASdCQ-9k_Fg9i3244WP2vIqzw HTTP/1.1[0m" 302 -
+2025-03-19 15:23:49,747 - INFO - 127.0.0.1 - - [19/Mar/2025 15:23:49] "GET /api/analytics?user_urn=urn:li:person:83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 15:25:15,465 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.144:5000
+2025-03-19 15:25:15,465 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-19 15:25:15,466 - INFO -  * Restarting with stat
+2025-03-19 15:25:18,938 - WARNING -  * Debugger is active!
+2025-03-19 15:25:18,941 - INFO -  * Debugger PIN: 144-034-646
+2025-03-19 15:25:24,080 - INFO - 127.0.0.1 - - [19/Mar/2025 15:25:24] "[31m[1mGET /api/analytics?user_urn=urn:li:person:83tFlkfvbJ HTTP/1.1[0m" 400 -
+2025-03-19 15:25:56,364 - INFO - 127.0.0.1 - - [19/Mar/2025 15:25:56] "OPTIONS /api/generate-posts HTTP/1.1" 200 -
+2025-03-19 15:25:56,389 - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-03-19 15:25:59,387 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 15:25:59,412 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-19 15:25:59,420 - INFO - 127.0.0.1 - - [19/Mar/2025 15:25:59] "POST /api/generate-posts HTTP/1.1" 200 -
+2025-03-19 15:26:06,748 - INFO - 127.0.0.1 - - [19/Mar/2025 15:26:06] "[31m[1mGET /api/scheduled-posts?user_urn=urn:li:person:83tFlkfvbJ HTTP/1.1[0m" 400 -
+2025-03-19 15:26:09,972 - INFO - 127.0.0.1 - - [19/Mar/2025 15:26:09] "[31m[1mGET /api/scheduled-posts?user_urn=urn:li:person:83tFlkfvbJ HTTP/1.1[0m" 400 -
+2025-03-19 15:26:10,132 - INFO - 127.0.0.1 - - [19/Mar/2025 15:26:10] "[31m[1mGET /api/scheduled-posts?user_urn=urn:li:person:83tFlkfvbJ HTTP/1.1[0m" 400 -
+2025-03-19 15:26:10,246 - INFO - 127.0.0.1 - - [19/Mar/2025 15:26:10] "[31m[1mGET /api/scheduled-posts?user_urn=urn:li:person:83tFlkfvbJ HTTP/1.1[0m" 400 -
+2025-03-19 15:26:10,465 - INFO - 127.0.0.1 - - [19/Mar/2025 15:26:10] "[31m[1mGET /api/scheduled-posts?user_urn=urn:li:person:83tFlkfvbJ HTTP/1.1[0m" 400 -
+2025-03-19 15:26:10,519 - INFO - 127.0.0.1 - - [19/Mar/2025 15:26:10] "[31m[1mGET /api/scheduled-posts?user_urn=urn:li:person:83tFlkfvbJ HTTP/1.1[0m" 400 -
+2025-03-19 15:26:10,681 - INFO - 127.0.0.1 - - [19/Mar/2025 15:26:10] "[31m[1mGET /api/scheduled-posts?user_urn=urn:li:person:83tFlkfvbJ HTTP/1.1[0m" 400 -
+2025-03-19 15:26:11,400 - INFO - 127.0.0.1 - - [19/Mar/2025 15:26:11] "[31m[1mGET /api/scheduled-posts?user_urn=urn:li:person:83tFlkfvbJ HTTP/1.1[0m" 400 -
+2025-03-19 15:26:11,771 - INFO - 127.0.0.1 - - [19/Mar/2025 15:26:11] "[31m[1mGET /api/scheduled-posts?user_urn=urn:li:person:83tFlkfvbJ HTTP/1.1[0m" 400 -
+2025-03-19 15:26:11,913 - INFO - 127.0.0.1 - - [19/Mar/2025 15:26:11] "[31m[1mGET /api/scheduled-posts?user_urn=urn:li:person:83tFlkfvbJ HTTP/1.1[0m" 400 -
+2025-03-19 15:26:12,106 - INFO - 127.0.0.1 - - [19/Mar/2025 15:26:12] "[31m[1mGET /api/scheduled-posts?user_urn=urn:li:person:83tFlkfvbJ HTTP/1.1[0m" 400 -
+2025-03-19 15:26:14,602 - INFO - 127.0.0.1 - - [19/Mar/2025 15:26:14] "[31m[1mGET /api/scheduled-posts?user_urn=urn:li:person:83tFlkfvbJ HTTP/1.1[0m" 400 -
+2025-03-19 15:26:15,162 - INFO - 127.0.0.1 - - [19/Mar/2025 15:26:15] "[31m[1mGET /api/scheduled-posts?user_urn=urn:li:person:83tFlkfvbJ HTTP/1.1[0m" 400 -
+2025-03-19 15:26:20,361 - INFO - 127.0.0.1 - - [19/Mar/2025 15:26:20] "[31m[1mGET /api/scheduled-posts?user_urn=urn:li:person:83tFlkfvbJ HTTP/1.1[0m" 400 -
+2025-03-19 15:26:20,984 - INFO - 127.0.0.1 - - [19/Mar/2025 15:26:20] "[31m[1mGET /api/scheduled-posts?user_urn=urn:li:person:83tFlkfvbJ HTTP/1.1[0m" 400 -
+2025-03-19 15:26:24,127 - INFO - 127.0.0.1 - - [19/Mar/2025 15:26:24] "OPTIONS /api/schedule-post HTTP/1.1" 200 -
+2025-03-19 15:26:24,133 - INFO - 127.0.0.1 - - [19/Mar/2025 15:26:24] "[31m[1mPOST /api/schedule-post HTTP/1.1[0m" 400 -
+2025-03-19 15:26:28,079 - INFO - 127.0.0.1 - - [19/Mar/2025 15:26:28] "[31m[1mPOST /api/schedule-post HTTP/1.1[0m" 400 -
+2025-03-19 15:26:40,164 - INFO - 127.0.0.1 - - [19/Mar/2025 15:26:40] "OPTIONS /api/schedule-post HTTP/1.1" 200 -
+2025-03-19 15:26:40,167 - INFO - 127.0.0.1 - - [19/Mar/2025 15:26:40] "[31m[1mPOST /api/schedule-post HTTP/1.1[0m" 400 -
+2025-03-19 15:26:40,851 - INFO - 127.0.0.1 - - [19/Mar/2025 15:26:40] "[31m[1mPOST /api/schedule-post HTTP/1.1[0m" 400 -
+2025-03-19 15:26:41,020 - INFO - 127.0.0.1 - - [19/Mar/2025 15:26:41] "[31m[1mPOST /api/schedule-post HTTP/1.1[0m" 400 -
+2025-03-19 15:26:41,217 - INFO - 127.0.0.1 - - [19/Mar/2025 15:26:41] "[31m[1mPOST /api/schedule-post HTTP/1.1[0m" 400 -
+2025-03-19 15:26:41,392 - INFO - 127.0.0.1 - - [19/Mar/2025 15:26:41] "[31m[1mPOST /api/schedule-post HTTP/1.1[0m" 400 -
+2025-03-19 15:26:49,527 - INFO - 127.0.0.1 - - [19/Mar/2025 15:26:49] "OPTIONS /api/schedule-post HTTP/1.1" 200 -
+2025-03-19 15:26:49,532 - INFO - 127.0.0.1 - - [19/Mar/2025 15:26:49] "[31m[1mPOST /api/schedule-post HTTP/1.1[0m" 400 -
+2025-03-19 15:26:52,313 - INFO - 127.0.0.1 - - [19/Mar/2025 15:26:52] "[31m[1mPOST /api/schedule-post HTTP/1.1[0m" 400 -
+2025-03-19 15:26:56,178 - INFO - 127.0.0.1 - - [19/Mar/2025 15:26:56] "OPTIONS /api/schedule-post HTTP/1.1" 200 -
+2025-03-19 15:26:56,181 - INFO - 127.0.0.1 - - [19/Mar/2025 15:26:56] "[31m[1mPOST /api/schedule-post HTTP/1.1[0m" 400 -
+2025-03-19 15:27:01,177 - INFO - 127.0.0.1 - - [19/Mar/2025 15:27:01] "[31m[1mPOST /api/schedule-post HTTP/1.1[0m" 400 -
+2025-03-19 15:27:11,000 - INFO - 127.0.0.1 - - [19/Mar/2025 15:27:11] "OPTIONS /api/schedule-post HTTP/1.1" 200 -
+2025-03-19 15:27:11,006 - INFO - 127.0.0.1 - - [19/Mar/2025 15:27:11] "[31m[1mPOST /api/schedule-post HTTP/1.1[0m" 400 -
+2025-03-19 15:27:12,119 - INFO - 127.0.0.1 - - [19/Mar/2025 15:27:12] "[31m[1mPOST /api/schedule-post HTTP/1.1[0m" 400 -
+2025-03-19 15:27:13,288 - INFO - 127.0.0.1 - - [19/Mar/2025 15:27:13] "[31m[1mPOST /api/schedule-post HTTP/1.1[0m" 400 -
+2025-03-19 15:27:13,474 - INFO - 127.0.0.1 - - [19/Mar/2025 15:27:13] "[31m[1mPOST /api/schedule-post HTTP/1.1[0m" 400 -
+2025-03-19 15:27:18,451 - INFO - 127.0.0.1 - - [19/Mar/2025 15:27:18] "[31m[1mGET /api/scheduled-posts?user_urn=urn:li:person:83tFlkfvbJ HTTP/1.1[0m" 400 -
+2025-03-19 15:27:18,917 - INFO - 127.0.0.1 - - [19/Mar/2025 15:27:18] "[31m[1mGET /api/scheduled-posts?user_urn=urn:li:person:83tFlkfvbJ HTTP/1.1[0m" 400 -
+2025-03-19 15:27:21,624 - INFO - 127.0.0.1 - - [19/Mar/2025 15:27:21] "OPTIONS /api/schedule-post HTTP/1.1" 200 -
+2025-03-19 15:27:21,627 - INFO - 127.0.0.1 - - [19/Mar/2025 15:27:21] "[31m[1mPOST /api/schedule-post HTTP/1.1[0m" 400 -
+2025-03-19 15:27:22,206 - INFO - 127.0.0.1 - - [19/Mar/2025 15:27:22] "[31m[1mPOST /api/schedule-post HTTP/1.1[0m" 400 -
+2025-03-19 15:27:22,383 - INFO - 127.0.0.1 - - [19/Mar/2025 15:27:22] "[31m[1mPOST /api/schedule-post HTTP/1.1[0m" 400 -
+2025-03-19 15:27:22,564 - INFO - 127.0.0.1 - - [19/Mar/2025 15:27:22] "[31m[1mPOST /api/schedule-post HTTP/1.1[0m" 400 -
+2025-03-19 15:27:23,601 - INFO - 127.0.0.1 - - [19/Mar/2025 15:27:23] "[31m[1mPOST /api/schedule-post HTTP/1.1[0m" 400 -
+2025-03-19 15:27:23,809 - INFO - 127.0.0.1 - - [19/Mar/2025 15:27:23] "[31m[1mPOST /api/schedule-post HTTP/1.1[0m" 400 -
+2025-03-19 15:27:23,990 - INFO - 127.0.0.1 - - [19/Mar/2025 15:27:23] "[31m[1mPOST /api/schedule-post HTTP/1.1[0m" 400 -
+2025-03-19 15:28:18,919 - INFO - 127.0.0.1 - - [19/Mar/2025 15:28:18] "[31m[1mGET /api/scheduled-posts?user_urn=urn:li:person:83tFlkfvbJ HTTP/1.1[0m" 400 -
+2025-03-19 15:29:12,513 - INFO -  * Detected change in '/home/prashant/Documents/work-related/projects/test/linkedin-agent/backend/app.py', reloading
+2025-03-19 15:29:12,919 - INFO -  * Restarting with stat
+2025-03-19 15:29:15,869 - WARNING -  * Debugger is active!
+2025-03-19 15:29:15,870 - INFO -  * Debugger PIN: 144-034-646
+2025-03-19 15:29:18,919 - INFO - 127.0.0.1 - - [19/Mar/2025 15:29:18] "[31m[1mGET /api/scheduled-posts?user_urn=urn:li:person:83tFlkfvbJ HTTP/1.1[0m" 400 -
+2025-03-19 15:29:52,272 - INFO - 127.0.0.1 - - [19/Mar/2025 15:29:52] "[31m[1mGET /api/scheduled-posts?user_urn=urn:li:person:83tFlkfvbJ HTTP/1.1[0m" 400 -
+2025-03-19 15:30:08,295 - INFO - 127.0.0.1 - - [19/Mar/2025 15:30:08] "[32mGET /api/linkedin-login HTTP/1.1[0m" 302 -
+2025-03-19 15:30:10,324 - INFO - 127.0.0.1 - - [19/Mar/2025 15:30:10] "[32mGET /api/linkedin-callback?code=AQSYXdPRdZrOg0v-7RjlnUr9M3kus6mCWrlxJHNXoIKUrjjAEuph10MJ9VLlmXMFmHXKzAawqP5exskLBngeftiTfA-ljfL8yfl5-6TKM-2PXb4Yo-wo8tMeaXLx3UG_g0RvQrOvAgeJUonyZHc0sUYNhORybmOkSXg7V0lklej_AK751LX5y2irdoBSR0dXs9v9LiQI0gRQAsV89mE HTTP/1.1[0m" 302 -
+2025-03-19 15:30:10,587 - INFO - 127.0.0.1 - - [19/Mar/2025 15:30:10] "GET /api/analytics?user_urn=urn:li:person:83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 15:30:18,691 - INFO - 127.0.0.1 - - [19/Mar/2025 15:30:18] "OPTIONS /api/generate-posts HTTP/1.1" 200 -
+2025-03-19 15:30:18,717 - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-03-19 15:30:21,064 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 15:30:21,088 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-19 15:30:21,096 - INFO - 127.0.0.1 - - [19/Mar/2025 15:30:21] "POST /api/generate-posts HTTP/1.1" 200 -
+2025-03-19 15:30:33,241 - INFO - 127.0.0.1 - - [19/Mar/2025 15:30:33] "GET /api/scheduled-posts?user_urn=urn:li:person:83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 15:30:46,125 - INFO - 127.0.0.1 - - [19/Mar/2025 15:30:46] "OPTIONS /api/schedule-post HTTP/1.1" 200 -
+2025-03-19 15:30:46,127 - INFO - 127.0.0.1 - - [19/Mar/2025 15:30:46] "POST /api/schedule-post HTTP/1.1" 200 -
+2025-03-19 15:30:46,133 - INFO - 127.0.0.1 - - [19/Mar/2025 15:30:46] "GET /api/scheduled-posts?user_urn=urn:li:person:83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 15:31:02,493 - INFO - 127.0.0.1 - - [19/Mar/2025 15:31:02] "[32mGET /api/linkedin-login HTTP/1.1[0m" 302 -
+2025-03-19 15:31:04,533 - INFO - 127.0.0.1 - - [19/Mar/2025 15:31:04] "[32mGET /api/linkedin-callback?code=AQSFjyyyuSpUd5z_FBNSaCVWgLzP7EgjLtZmSvyBllEfOktGe13wkD0-sMO5VvWURoyaBBuWq9urh18Uv3D45EUc4ruN7QDQWTClebjTPFuXceTOfEdMofWDeBOs3TGK7V9dMHYKqWcng1i66X24vh-Ok4ZHVbixoJaie0TbMhJYFEGirFS40F6WOVpw3LN0_jCOjrxtGDylTYp2vpo HTTP/1.1[0m" 302 -
+2025-03-19 15:31:04,971 - INFO - 127.0.0.1 - - [19/Mar/2025 15:31:04] "GET /api/analytics?user_urn=urn:li:person:83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 15:33:30,350 - INFO - 127.0.0.1 - - [19/Mar/2025 15:33:30] "[32mGET /api/linkedin-login HTTP/1.1[0m" 302 -
+2025-03-19 15:33:32,362 - INFO - 127.0.0.1 - - [19/Mar/2025 15:33:32] "[32mGET /api/linkedin-callback?code=AQQV4YD4M_xzTAiMD0LFTz7JVrpA-_dNXzIsq4X56BmGzfHl1TfdyyKXjtn9SjQ9iky26NIz_MqpXfSboeOLOgxcDqh2sL3osQFIVZ89H6FiUOIi5a7qa8uR_gjBonuBqZexiF9daClqsdN_pkMNQCf5E1CD35vXkapq_aTW88zhjl6NwVTY6U_VSqcCIPZdaMKqEjlvcSOmD4T-5MM HTTP/1.1[0m" 302 -
+2025-03-19 15:33:32,505 - INFO - 127.0.0.1 - - [19/Mar/2025 15:33:32] "GET /api/analytics?user_urn=urn:li:person:83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 15:33:35,950 - INFO - 127.0.0.1 - - [19/Mar/2025 15:33:35] "OPTIONS /api/generate-posts HTTP/1.1" 200 -
+2025-03-19 15:33:35,968 - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-03-19 15:33:40,144 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 15:33:40,146 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-19 15:33:40,155 - INFO - 127.0.0.1 - - [19/Mar/2025 15:33:40] "POST /api/generate-posts HTTP/1.1" 200 -
+2025-03-19 15:38:27,697 - INFO - 127.0.0.1 - - [19/Mar/2025 15:38:27] "[32mGET /api/linkedin-login HTTP/1.1[0m" 302 -
+2025-03-19 15:38:32,497 - INFO - 127.0.0.1 - - [19/Mar/2025 15:38:32] "[32mGET /api/linkedin-callback?code=AQSaGFqMGxDviz4BYi21Iqxst4klaTJ_xXOxKWPFNuyXVmNNA1RebkoieVtFg5--v4SicIxmqByWIXXJZ_K28eoCDu4tJAuHVRZc3mKJxtsmqsnRDlyPHWq3fKVo-036KWfQXmQXryCDaYZPaiSjyK6cw6hVLVPtjskUM8BSF0OJ8FKtbT8hQeRn5k31SjZfLCFNsTickbRASPR0DIk HTTP/1.1[0m" 302 -
+2025-03-19 15:38:32,841 - INFO - 127.0.0.1 - - [19/Mar/2025 15:38:32] "GET /api/analytics?user_urn=urn:li:person:83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 15:38:37,386 - INFO - 127.0.0.1 - - [19/Mar/2025 15:38:37] "OPTIONS /api/generate-posts HTTP/1.1" 200 -
+2025-03-19 15:38:37,403 - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-03-19 15:38:40,487 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 15:38:40,504 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-19 15:38:40,513 - INFO - 127.0.0.1 - - [19/Mar/2025 15:38:40] "POST /api/generate-posts HTTP/1.1" 200 -
+2025-03-19 15:41:20,529 - INFO -  * Detected change in '/home/prashant/Documents/work-related/projects/test/linkedin-agent/backend/app.py', reloading
+2025-03-19 15:41:20,869 - INFO -  * Restarting with stat
+2025-03-19 15:41:23,193 - WARNING -  * Debugger is active!
+2025-03-19 15:41:23,193 - INFO -  * Debugger PIN: 144-034-646
+2025-03-19 15:44:59,643 - INFO -  * Detected change in '/home/prashant/Documents/work-related/projects/test/linkedin-agent/backend/app.py', reloading
+2025-03-19 15:44:59,998 - INFO -  * Restarting with stat
+2025-03-19 15:45:02,649 - WARNING -  * Debugger is active!
+2025-03-19 15:45:02,650 - INFO -  * Debugger PIN: 144-034-646
+2025-03-19 15:45:29,153 - INFO - 127.0.0.1 - - [19/Mar/2025 15:45:29] "[32mGET /api/linkedin-login HTTP/1.1[0m" 302 -
+2025-03-19 15:45:31,317 - INFO - 127.0.0.1 - - [19/Mar/2025 15:45:31] "[32mGET /api/linkedin-callback?code=AQRYarqYTC_LSfAjejZUgzW5GwmqY38T_C_GNhoBCwZfN-Dh1OHLHGs7JD-UJ_4J5zZxTw1f39rTpYSrX37bSyTB6m37_WRSlvW5Zykkack4cAo3Uqvbij-P3j-eZ7fS1KsYW0Cm-G8omcIE8PdVk74jNcSKGc4-fu4kmoRGxN87lUMe_V-m_PCAF7KNKJx36D-ZxPDDVze4xIou9kI HTTP/1.1[0m" 302 -
+2025-03-19 15:45:31,735 - INFO - 127.0.0.1 - - [19/Mar/2025 15:45:31] "GET /api/analytics?user_urn=urn:li:person:83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 15:45:35,904 - INFO - 127.0.0.1 - - [19/Mar/2025 15:45:35] "OPTIONS /api/generate-posts HTTP/1.1" 200 -
+2025-03-19 15:45:35,938 - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-03-19 15:45:38,179 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 15:45:38,200 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-19 15:45:38,209 - INFO - Raw OpenAI output: 1. "Hi there, LinkedIn family! 🌟 I'm excited to connect with all of you! Whether you're a seasoned pro or just starting your journey, this platform is a treasure chest of opportunities. Let's embrace collaboration, share knowledge, and help each other grow! What’s one piece of advice you would share with someone new in your industry? Drop your gems in the comments! 💬 #Networking #Growth #Advice"
+
+2. "Hi everyone! 👋 It’s a brand new day filled with potential and possibilities! Remember, every connection has the power to transform your career path. Let’s ignite engaging conversations that inspire and elevate us all. I invite you to share your current projects, challenges, or even a success story! Together, we can fuel each other's ambitions and journey. 🌍💼 #Connection #Support #CareerGrowth"
+
+3. "Hi to all the amazing professionals out there! 🌈 Are you looking to make meaningful connections? You’re in the right place! This platform offers us a chance to learn from diverse experiences and perspectives. Let’s take a moment to reflect: what has been the highlight of your career so far? I’d love to hear your stories and celebrate our victories together! 🎉 #Community #Celebration #Storytelling"
+2025-03-19 15:45:38,209 - INFO - Processed variations: ['"Hi there, LinkedIn family! 🌟 I\'m excited to connect with all of you! Whether you\'re a seasoned pro or just starting your journey, this platform is a treasure chest of opportunities. Let\'s embrace collaboration, share knowledge, and help each other grow! What’s one piece of advice you would share with someone new in your industry? Drop your gems in the comments! 💬 #Networking #Growth #Advice"', '"Hi everyone! 👋 It’s a brand new day filled with potential and possibilities! Remember, every connection has the power to transform your career path. Let’s ignite engaging conversations that inspire and elevate us all. I invite you to share your current projects, challenges, or even a success story! Together, we can fuel each other\'s ambitions and journey. 🌍💼 #Connection #Support #CareerGrowth"', '"Hi to all the amazing professionals out there! 🌈 Are you looking to make meaningful connections? You’re in the right place! This platform offers us a chance to learn from diverse experiences and perspectives. Let’s take a moment to reflect: what has been the highlight of your career so far? I’d love to hear your stories and celebrate our victories together! 🎉 #Community #Celebration #Storytelling"']
+2025-03-19 15:45:38,210 - INFO - 127.0.0.1 - - [19/Mar/2025 15:45:38] "POST /api/generate-posts HTTP/1.1" 200 -
+2025-03-19 15:46:24,606 - INFO - 127.0.0.1 - - [19/Mar/2025 15:46:24] "GET /api/scheduled-posts?user_urn=urn:li:person:83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 15:46:41,208 - INFO - 127.0.0.1 - - [19/Mar/2025 15:46:41] "OPTIONS /api/schedule-post HTTP/1.1" 200 -
+2025-03-19 15:46:41,214 - INFO - 127.0.0.1 - - [19/Mar/2025 15:46:41] "POST /api/schedule-post HTTP/1.1" 200 -
+2025-03-19 15:46:41,225 - INFO - 127.0.0.1 - - [19/Mar/2025 15:46:41] "GET /api/scheduled-posts?user_urn=urn:li:person:83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 15:46:43,721 - INFO - 127.0.0.1 - - [19/Mar/2025 15:46:43] "GET /api/scheduled-posts?user_urn=urn:li:person:83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 15:46:46,273 - INFO - 127.0.0.1 - - [19/Mar/2025 15:46:46] "OPTIONS /api/schedule-post HTTP/1.1" 200 -
+2025-03-19 15:46:46,277 - INFO - 127.0.0.1 - - [19/Mar/2025 15:46:46] "POST /api/schedule-post HTTP/1.1" 200 -
+2025-03-19 15:46:46,308 - INFO - 127.0.0.1 - - [19/Mar/2025 15:46:46] "GET /api/scheduled-posts?user_urn=urn:li:person:83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 15:46:48,159 - INFO - 127.0.0.1 - - [19/Mar/2025 15:46:48] "GET /api/analytics?user_urn=urn:li:person:83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 15:48:26,784 - INFO -  * Detected change in '/home/prashant/Documents/work-related/projects/test/linkedin-agent/backend/app.py', reloading
+2025-03-19 15:48:27,121 - INFO -  * Restarting with stat
+2025-03-19 15:48:51,077 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.144:5000
+2025-03-19 15:48:51,077 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-19 15:48:51,077 - INFO -  * Restarting with stat
+2025-03-19 15:48:53,981 - WARNING -  * Debugger is active!
+2025-03-19 15:48:53,981 - INFO -  * Debugger PIN: 144-034-646
+2025-03-19 15:49:23,343 - INFO - 127.0.0.1 - - [19/Mar/2025 15:49:23] "[32mGET /api/linkedin-login HTTP/1.1[0m" 302 -
+2025-03-19 15:49:25,633 - INFO - 127.0.0.1 - - [19/Mar/2025 15:49:25] "[32mGET /api/linkedin-callback?code=AQSqKV-yT5GZfk9YCxCAOkFZQRismLsRjOvim_mUYSoUalU-zQ74fkncjUT7MfZUJjWKtNSVaIZXA-WGUL8sUxtG1iQMJ_1S2WDWSIvR2Gt20QbeDKuGvZGYMTLHZ3bZjCV4MmiHUD4jQWLHNmUpIHtr3Ig5IqsfA952fsFaZQnoyob1idE2QIQ2dEE9YaPCXMO7_OKvxIEAVaeTB4c HTTP/1.1[0m" 302 -
+2025-03-19 15:49:25,867 - INFO - 127.0.0.1 - - [19/Mar/2025 15:49:25] "GET /api/analytics?user_urn=urn:li:person:83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 15:49:47,768 - INFO - 127.0.0.1 - - [19/Mar/2025 15:49:47] "OPTIONS /api/generate-posts HTTP/1.1" 200 -
+2025-03-19 15:49:47,800 - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-03-19 15:49:51,461 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 15:49:51,482 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-19 15:49:51,487 - INFO - Raw OpenAI output: 1. 🌟 Exciting News! 🌟 Today marks my first venture into the LinkedIn community, and I couldn't think of a more groundbreaking topic than Artificial Intelligence (AI). AI is transforming industries at an unprecedented rate, and its benefits are not just hype; they’re a reality. From increasing productivity to providing personalized customer experiences, AI tools are enabling businesses to make data-driven decisions faster and more accurately than ever before. Imagine a world where mundane tasks are automated, allowing us to focus on creativity and innovation! As we embrace this technology, we unlock new possibilities and drive efficiency like never before. Let's embrace AI together, and think about how it can empower our workplaces and personal growth. What's your take on AI's impact? 🤖✨ #ArtificialIntelligence #Innovation #FutureOfWork
+
+2. 🎉 Hello, LinkedIn! 🎉 It’s with great enthusiasm that I share my first post focused on Artificial Intelligence, a hot topic that’s revolutionizing our professional landscape. AI offers countless advantages, such as enhanced data analysis, operational efficiency, and smarter decision-making processes. Imagine automating repetitive tasks, uncovering insights in massive datasets, and providing real-time feedback—but that’s just the tip of the iceberg! Industry leaders leverage AI to create competitive advantages and craft tailored experiences for their clients. As we navigate this digital age, I urge everyone to embrace AI not as a replacement but as a collaborative partner on our journeys. What are your thoughts or experiences with AI in your field? Let’s discuss! 🚀 #AI #Technology #BusinessTransformation
+
+3. 🌐 Greetings, LinkedIn Family! 🌐 As I launch my first post, I’m thrilled to dive into the remarkable world of Artificial Intelligence. The potential benefits of AI are vast, offering innovative solutions that streamline processes and foster growth. From predictive analytics that help businesses anticipate customer needs to natural language processing that enhances communication—AI empowers us to work smarter, not harder. The true magic happens when we integrate these technologies into our daily operations, turning challenges into opportunities and ideas into reality! As we stand at the forefront of this AI revolution, I'm eager to hear how you think AI will shape our future. What benefits have you experienced in your career? Let's connect and inspire each other! 🌟🤝 #FutureOfAI #Transformation #Collaboration
+2025-03-19 15:49:51,488 - INFO - Processed variations: ["🌟 Exciting News! 🌟 Today marks my first venture into the LinkedIn community, and I couldn't think of a more groundbreaking topic than Artificial Intelligence (AI). AI is transforming industries at an unprecedented rate, and its benefits are not just hype; they’re a reality. From increasing productivity to providing personalized customer experiences, AI tools are enabling businesses to make data-driven decisions faster and more accurately than ever before. Imagine a world where mundane tasks are automated, allowing us to focus on creativity and innovation! As we embrace this technology, we unlock new possibilities and drive efficiency like never before. Let's embrace AI together, and think about how it can empower our workplaces and personal growth. What's your take on AI's impact? 🤖✨ #ArtificialIntelligence #Innovation #FutureOfWork", '🎉 Hello, LinkedIn! 🎉 It’s with great enthusiasm that I share my first post focused on Artificial Intelligence, a hot topic that’s revolutionizing our professional landscape. AI offers countless advantages, such as enhanced data analysis, operational efficiency, and smarter decision-making processes. Imagine automating repetitive tasks, uncovering insights in massive datasets, and providing real-time feedback—but that’s just the tip of the iceberg! Industry leaders leverage AI to create competitive advantages and craft tailored experiences for their clients. As we navigate this digital age, I urge everyone to embrace AI not as a replacement but as a collaborative partner on our journeys. What are your thoughts or experiences with AI in your field? Let’s discuss! 🚀 #AI #Technology #BusinessTransformation', "🌐 Greetings, LinkedIn Family! 🌐 As I launch my first post, I’m thrilled to dive into the remarkable world of Artificial Intelligence. The potential benefits of AI are vast, offering innovative solutions that streamline processes and foster growth. From predictive analytics that help businesses anticipate customer needs to natural language processing that enhances communication—AI empowers us to work smarter, not harder. The true magic happens when we integrate these technologies into our daily operations, turning challenges into opportunities and ideas into reality! As we stand at the forefront of this AI revolution, I'm eager to hear how you think AI will shape our future. What benefits have you experienced in your career? Let's connect and inspire each other! 🌟🤝 #FutureOfAI #Transformation #Collaboration"]
+2025-03-19 15:49:51,488 - INFO - 127.0.0.1 - - [19/Mar/2025 15:49:51] "POST /api/generate-posts HTTP/1.1" 200 -
+2025-03-19 15:50:16,524 - INFO - 127.0.0.1 - - [19/Mar/2025 15:50:16] "GET /api/scheduled-posts?user_urn=urn:li:person:83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 15:51:16,525 - INFO - 127.0.0.1 - - [19/Mar/2025 15:51:16] "GET /api/scheduled-posts?user_urn=urn:li:person:83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 15:51:37,643 - INFO - 127.0.0.1 - - [19/Mar/2025 15:51:37] "GET /api/scheduled-posts?user_urn=urn:li:person:83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 15:52:37,645 - INFO - 127.0.0.1 - - [19/Mar/2025 15:52:37] "GET /api/scheduled-posts?user_urn=urn:li:person:83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 15:53:37,646 - INFO - 127.0.0.1 - - [19/Mar/2025 15:53:37] "GET /api/scheduled-posts?user_urn=urn:li:person:83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 15:54:37,648 - INFO - 127.0.0.1 - - [19/Mar/2025 15:54:37] "GET /api/scheduled-posts?user_urn=urn:li:person:83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 15:55:32,540 - INFO - 127.0.0.1 - - [19/Mar/2025 15:55:32] "GET /api/scheduled-posts?user_urn=urn:li:person:83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 15:55:49,403 - INFO - 127.0.0.1 - - [19/Mar/2025 15:55:49] "OPTIONS /api/cancel-post HTTP/1.1" 200 -
+2025-03-19 15:55:49,408 - INFO - Canceled post with ID: 20250319154641_6158747732618115679
+2025-03-19 15:55:49,408 - INFO - 127.0.0.1 - - [19/Mar/2025 15:55:49] "POST /api/cancel-post HTTP/1.1" 200 -
+2025-03-19 15:55:49,428 - INFO - 127.0.0.1 - - [19/Mar/2025 15:55:49] "GET /api/scheduled-posts?user_urn=urn:li:person:83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 15:55:51,502 - INFO - Canceled post with ID: 20250319154646_6158747732618115679
+2025-03-19 15:55:51,502 - INFO - 127.0.0.1 - - [19/Mar/2025 15:55:51] "POST /api/cancel-post HTTP/1.1" 200 -
+2025-03-19 15:55:51,511 - INFO - 127.0.0.1 - - [19/Mar/2025 15:55:51] "GET /api/scheduled-posts?user_urn=urn:li:person:83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 15:55:56,325 - INFO - 127.0.0.1 - - [19/Mar/2025 15:55:56] "OPTIONS /api/cancel-post HTTP/1.1" 200 -
+2025-03-19 15:55:56,329 - INFO - Canceled post with ID: 20250319153046_6830220484192997796
+2025-03-19 15:55:56,329 - INFO - 127.0.0.1 - - [19/Mar/2025 15:55:56] "POST /api/cancel-post HTTP/1.1" 200 -
+2025-03-19 15:55:56,337 - INFO - 127.0.0.1 - - [19/Mar/2025 15:55:56] "GET /api/scheduled-posts?user_urn=urn:li:person:83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 15:56:04,963 - INFO - 127.0.0.1 - - [19/Mar/2025 15:56:04] "OPTIONS /api/schedule-post HTTP/1.1" 200 -
+2025-03-19 15:56:04,968 - INFO - 127.0.0.1 - - [19/Mar/2025 15:56:04] "POST /api/schedule-post HTTP/1.1" 200 -
+2025-03-19 15:56:04,977 - INFO - 127.0.0.1 - - [19/Mar/2025 15:56:04] "GET /api/scheduled-posts?user_urn=urn:li:person:83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 15:56:07,821 - INFO - 127.0.0.1 - - [19/Mar/2025 15:56:07] "GET /api/scheduled-posts?user_urn=urn:li:person:83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 15:56:08,970 - INFO - 127.0.0.1 - - [19/Mar/2025 15:56:08] "GET /api/analytics?user_urn=urn:li:person:83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 15:56:13,431 - INFO - 127.0.0.1 - - [19/Mar/2025 15:56:13] "GET /api/scheduled-posts?user_urn=urn:li:person:83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 15:57:13,406 - INFO - 127.0.0.1 - - [19/Mar/2025 15:57:13] "GET /api/scheduled-posts?user_urn=urn:li:person:83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 15:58:11,115 - INFO - 127.0.0.1 - - [19/Mar/2025 15:58:11] "GET /api/scheduled-posts?user_urn=urn:li:person:83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 15:58:27,852 - INFO - 127.0.0.1 - - [19/Mar/2025 15:58:27] "GET /api/scheduled-posts?user_urn=urn:li:person:83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 15:58:43,909 - INFO - 127.0.0.1 - - [19/Mar/2025 15:58:43] "OPTIONS /api/cancel-post HTTP/1.1" 200 -
+2025-03-19 15:58:43,912 - INFO - Canceled post with ID: 20250319155604_399042326706722564
+2025-03-19 15:58:43,912 - INFO - 127.0.0.1 - - [19/Mar/2025 15:58:43] "POST /api/cancel-post HTTP/1.1" 200 -
+2025-03-19 15:58:43,920 - INFO - 127.0.0.1 - - [19/Mar/2025 15:58:43] "GET /api/scheduled-posts?user_urn=urn:li:person:83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 15:58:48,382 - INFO - 127.0.0.1 - - [19/Mar/2025 15:58:48] "OPTIONS /api/schedule-post HTTP/1.1" 200 -
+2025-03-19 15:58:48,388 - INFO - 127.0.0.1 - - [19/Mar/2025 15:58:48] "POST /api/schedule-post HTTP/1.1" 200 -
+2025-03-19 15:58:48,399 - INFO - 127.0.0.1 - - [19/Mar/2025 15:58:48] "GET /api/scheduled-posts?user_urn=urn:li:person:83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 15:58:50,920 - INFO - 127.0.0.1 - - [19/Mar/2025 15:58:50] "GET /api/scheduled-posts?user_urn=urn:li:person:83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 15:59:04,824 - INFO - 127.0.0.1 - - [19/Mar/2025 15:59:04] "[32mGET /api/linkedin-login HTTP/1.1[0m" 302 -
+2025-03-19 15:59:09,790 - INFO - 127.0.0.1 - - [19/Mar/2025 15:59:09] "[32mGET /api/linkedin-callback?code=AQTybpjoSkJ9ER2j3U5osiCX3RZdefDaFfMIX_W10kJTrqvwUjars16zwr18ibU4Z0G-0QL8_g3y5FeYHHMBBcgivx8orRsRs7QWRuUiNjaMyuahNHIFffqBXtDg1t40ZWZGo03X7rReqNAtHmL7lIMmNnS0JkA6NMnRKg4Bb3D1vhJ7qU4YDhA6N0GluqvL-fzon0sib8YI89_1RSk HTTP/1.1[0m" 302 -
+2025-03-19 15:59:10,185 - INFO - 127.0.0.1 - - [19/Mar/2025 15:59:10] "GET /api/analytics?user_urn=urn:li:person:83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 15:59:13,181 - INFO - 127.0.0.1 - - [19/Mar/2025 15:59:13] "OPTIONS /api/generate-posts HTTP/1.1" 200 -
+2025-03-19 15:59:13,192 - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-03-19 15:59:16,266 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 15:59:16,269 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-19 15:59:16,277 - INFO - Raw OpenAI output: 1. 🌟 Embracing Change 🌟  
+In today's fast-paced world, adaptability is no longer an option—it's a necessity. I often reflect on the journey of my career and how embracing change has shaped my professional identity. The experiences that challenged me the most turned out to be my greatest teachers. 🌱 That's why I believe cultivating a growth mindset can transform our careers. Each obstacle is an opportunity for growth, a path toward innovation. Let's share our stories of resilience and growth to inspire one another! How have you embraced change in your career? Comment below! 👇✨  
+
+2. 🔍 The Power of Networking! 🔍  
+When I started my journey, I underestimated the impact of connections. Fast forward to now, and I can confidently say that the best opportunities often arise from the relationships we build. 🤝✨ Networking is more than just exchanging business cards; it's about connecting on a deeper level, sharing insights, and supporting one another. Let's utilize our LinkedIn community! Who can you help today? Tag someone in your network who has inspired you, or share a networking tip that has worked for you! Let’s grow together! 🌐🌱  
+
+3. 📚 Lifelong Learning: The Key to Success 🎓  
+In a world that’s evolving at lightning speed, the importance of lifelong learning cannot be overstated! 📈 Every course I take, podcast I listen to, or book I read adds another layer to my understanding of this dynamic industry. The more we learn, the more we can contribute, and the better we can navigate the complex world around us. 🌍 What’s a recent learning experience that has transformed your professional perspective? Let's encourage each other to never stop growing! Share your thoughts below! 💡🔗
+2025-03-19 15:59:16,278 - INFO - Processed variations: ["🌟 Embracing Change 🌟  \nIn today's fast-paced world, adaptability is no longer an option—it's a necessity. I often reflect on the journey of my career and how embracing change has shaped my professional identity. The experiences that challenged me the most turned out to be my greatest teachers. 🌱 That's why I believe cultivating a growth mindset can transform our careers. Each obstacle is an opportunity for growth, a path toward innovation. Let's share our stories of resilience and growth to inspire one another! How have you embraced change in your career? Comment below! 👇✨", "🔍 The Power of Networking! 🔍  \nWhen I started my journey, I underestimated the impact of connections. Fast forward to now, and I can confidently say that the best opportunities often arise from the relationships we build. 🤝✨ Networking is more than just exchanging business cards; it's about connecting on a deeper level, sharing insights, and supporting one another. Let's utilize our LinkedIn community! Who can you help today? Tag someone in your network who has inspired you, or share a networking tip that has worked for you! Let’s grow together! 🌐🌱", "📚 Lifelong Learning: The Key to Success 🎓  \nIn a world that’s evolving at lightning speed, the importance of lifelong learning cannot be overstated! 📈 Every course I take, podcast I listen to, or book I read adds another layer to my understanding of this dynamic industry. The more we learn, the more we can contribute, and the better we can navigate the complex world around us. 🌍 What’s a recent learning experience that has transformed your professional perspective? Let's encourage each other to never stop growing! Share your thoughts below! 💡🔗"]
+2025-03-19 15:59:16,279 - INFO - 127.0.0.1 - - [19/Mar/2025 15:59:16] "POST /api/generate-posts HTTP/1.1" 200 -
+2025-03-19 15:59:28,703 - INFO - 127.0.0.1 - - [19/Mar/2025 15:59:28] "GET /api/scheduled-posts?user_urn=urn:li:person:83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 15:59:33,874 - INFO - 127.0.0.1 - - [19/Mar/2025 15:59:33] "OPTIONS /api/cancel-post HTTP/1.1" 200 -
+2025-03-19 15:59:33,878 - INFO - Canceled post with ID: 20250319155848_399042326706722564
+2025-03-19 15:59:33,879 - INFO - 127.0.0.1 - - [19/Mar/2025 15:59:33] "POST /api/cancel-post HTTP/1.1" 200 -
+2025-03-19 15:59:33,886 - INFO - 127.0.0.1 - - [19/Mar/2025 15:59:33] "GET /api/scheduled-posts?user_urn=urn:li:person:83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 15:59:41,241 - INFO - 127.0.0.1 - - [19/Mar/2025 15:59:41] "OPTIONS /api/schedule-post HTTP/1.1" 200 -
+2025-03-19 15:59:41,248 - INFO - 127.0.0.1 - - [19/Mar/2025 15:59:41] "POST /api/schedule-post HTTP/1.1" 200 -
+2025-03-19 15:59:41,254 - INFO - 127.0.0.1 - - [19/Mar/2025 15:59:41] "GET /api/scheduled-posts?user_urn=urn:li:person:83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 15:59:43,446 - INFO - 127.0.0.1 - - [19/Mar/2025 15:59:43] "GET /api/scheduled-posts?user_urn=urn:li:person:83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 16:00:43,448 - INFO - 127.0.0.1 - - [19/Mar/2025 16:00:43] "GET /api/scheduled-posts?user_urn=urn:li:person:83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 16:01:43,446 - INFO - 127.0.0.1 - - [19/Mar/2025 16:01:43] "GET /api/scheduled-posts?user_urn=urn:li:person:83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 16:02:43,451 - INFO - 127.0.0.1 - - [19/Mar/2025 16:02:43] "GET /api/scheduled-posts?user_urn=urn:li:person:83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 16:03:12,846 - INFO -  * Detected change in '/home/prashant/Documents/work-related/projects/test/linkedin-agent/backend/app.py', reloading
+2025-03-19 16:03:13,412 - INFO -  * Restarting with stat
+2025-03-19 16:03:16,686 - WARNING -  * Debugger is active!
+2025-03-19 16:03:16,686 - INFO -  * Debugger PIN: 144-034-646
+2025-03-19 16:03:21,806 - INFO -  * Detected change in '/home/prashant/Documents/work-related/projects/test/linkedin-agent/backend/app.py', reloading
+2025-03-19 16:03:22,169 - INFO -  * Restarting with stat
+2025-03-19 16:08:43,662 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.144:5000
+2025-03-19 16:08:43,663 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-19 16:08:43,664 - INFO -  * Restarting with stat
+2025-03-19 16:08:45,794 - WARNING -  * Debugger is active!
+2025-03-19 16:08:45,795 - INFO -  * Debugger PIN: 144-034-646
+2025-03-19 16:08:47,868 - INFO - 127.0.0.1 - - [19/Mar/2025 16:08:47] "[32mGET /api/linkedin-login HTTP/1.1[0m" 302 -
+2025-03-19 16:08:51,274 - INFO - 127.0.0.1 - - [19/Mar/2025 16:08:51] "[35m[1mGET /api/linkedin-callback?code=AQSrK6Dk7mhCgV_xb1xi2IGZ-Tok_VD-d4oH4H8OT3CEvSV_crcmsZNsbmM6sFj9V4BH5LQTsdYHVUbr8FcG1y8aA__8W2sh39uCKRPiKSLkr_kX4r7ABAPOHKJHdqEdc8UCv-3mnGJKXyPp9fq56-pxvyguQGQh3t7KBeSwt5xXTGkl5Qflnmyew0kfKF0q5t8WV3Jc8O2F0kXvV4Y HTTP/1.1[0m" 500 -
+2025-03-19 16:08:51,326 - INFO - 127.0.0.1 - - [19/Mar/2025 16:08:51] "GET /api/linkedin-callback?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-03-19 16:08:51,327 - INFO - 127.0.0.1 - - [19/Mar/2025 16:08:51] "GET /api/linkedin-callback?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-03-19 16:08:51,461 - INFO - 127.0.0.1 - - [19/Mar/2025 16:08:51] "GET /api/linkedin-callback?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-03-19 16:08:51,468 - INFO - 127.0.0.1 - - [19/Mar/2025 16:08:51] "GET /api/linkedin-callback?__debugger__=yes&cmd=resource&f=console.png&s=zBVRVeN9qGVoSCYREJ34 HTTP/1.1" 200 -
+2025-03-19 16:10:02,342 - INFO -  * Detected change in '/home/prashant/Documents/work-related/projects/test/linkedin-agent/backend/app.py', reloading
+2025-03-19 16:10:02,728 - INFO -  * Restarting with stat
+2025-03-19 16:10:06,670 - WARNING -  * Debugger is active!
+2025-03-19 16:10:06,671 - INFO -  * Debugger PIN: 144-034-646
+2025-03-19 16:10:13,837 - INFO -  * Detected change in '/home/prashant/Documents/work-related/projects/test/linkedin-agent/backend/app.py', reloading
+2025-03-19 16:10:14,347 - INFO -  * Restarting with stat
+2025-03-19 16:10:21,864 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.144:5000
+2025-03-19 16:10:21,864 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-19 16:10:21,864 - INFO -  * Restarting with stat
+2025-03-19 16:10:24,003 - WARNING -  * Debugger is active!
+2025-03-19 16:10:24,003 - INFO -  * Debugger PIN: 144-034-646
+2025-03-19 16:10:28,600 - INFO - 127.0.0.1 - - [19/Mar/2025 16:10:28] "[35m[1mGET /api/linkedin-callback?code=AQSrK6Dk7mhCgV_xb1xi2IGZ-Tok_VD-d4oH4H8OT3CEvSV_crcmsZNsbmM6sFj9V4BH5LQTsdYHVUbr8FcG1y8aA__8W2sh39uCKRPiKSLkr_kX4r7ABAPOHKJHdqEdc8UCv-3mnGJKXyPp9fq56-pxvyguQGQh3t7KBeSwt5xXTGkl5Qflnmyew0kfKF0q5t8WV3Jc8O2F0kXvV4Y HTTP/1.1[0m" 500 -
+2025-03-19 16:10:28,639 - INFO - 127.0.0.1 - - [19/Mar/2025 16:10:28] "[36mGET /api/linkedin-callback?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-03-19 16:10:28,639 - INFO - 127.0.0.1 - - [19/Mar/2025 16:10:28] "[36mGET /api/linkedin-callback?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-03-19 16:10:28,664 - INFO - 127.0.0.1 - - [19/Mar/2025 16:10:28] "GET /api/linkedin-callback?__debugger__=yes&cmd=resource&f=console.png&s=wzjXtCcI4aHh80IW8QAL HTTP/1.1" 200 -
+2025-03-19 16:11:48,659 - INFO -  * Detected change in '/home/prashant/Documents/work-related/projects/test/linkedin-agent/backend/app.py', reloading
+2025-03-19 16:11:49,205 - INFO -  * Restarting with stat
+2025-03-19 16:11:56,362 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.144:5000
+2025-03-19 16:11:56,363 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-19 16:11:56,364 - INFO -  * Restarting with stat
+2025-03-19 16:11:59,741 - WARNING -  * Debugger is active!
+2025-03-19 16:11:59,742 - INFO -  * Debugger PIN: 144-034-646
+2025-03-19 16:12:01,584 - INFO - User authenticated: 83tFlkfvbJ
+2025-03-19 16:12:01,586 - INFO - 127.0.0.1 - - [19/Mar/2025 16:12:01] "[32mGET /api/linkedin-callback?code=AQSrK6Dk7mhCgV_xb1xi2IGZ-Tok_VD-d4oH4H8OT3CEvSV_crcmsZNsbmM6sFj9V4BH5LQTsdYHVUbr8FcG1y8aA__8W2sh39uCKRPiKSLkr_kX4r7ABAPOHKJHdqEdc8UCv-3mnGJKXyPp9fq56-pxvyguQGQh3t7KBeSwt5xXTGkl5Qflnmyew0kfKF0q5t8WV3Jc8O2F0kXvV4Y HTTP/1.1[0m" 302 -
+2025-03-19 16:12:01,948 - INFO - 127.0.0.1 - - [19/Mar/2025 16:12:01] "[31m[1mGET /api/me?user_urn=83tFlkfvbJ HTTP/1.1[0m" 400 -
+2025-03-19 16:12:01,954 - INFO - 127.0.0.1 - - [19/Mar/2025 16:12:01] "[31m[1mGET /api/analytics?user_urn=83tFlkfvbJ HTTP/1.1[0m" 400 -
+2025-03-19 16:12:14,617 - INFO - 127.0.0.1 - - [19/Mar/2025 16:12:14] "[31m[1mGET /api/me?user_urn=83tFlkfvbJ HTTP/1.1[0m" 400 -
+2025-03-19 16:12:14,620 - INFO - 127.0.0.1 - - [19/Mar/2025 16:12:14] "[31m[1mGET /api/analytics?user_urn=83tFlkfvbJ HTTP/1.1[0m" 400 -
+2025-03-19 16:13:56,079 - INFO -  * Detected change in '/home/prashant/Documents/work-related/projects/test/linkedin-agent/backend/app.py', reloading
+2025-03-19 16:13:56,697 - INFO -  * Restarting with stat
+2025-03-19 16:14:02,209 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.144:5000
+2025-03-19 16:14:02,209 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-19 16:14:02,209 - INFO -  * Restarting with stat
+2025-03-19 16:14:04,363 - WARNING -  * Debugger is active!
+2025-03-19 16:14:04,363 - INFO -  * Debugger PIN: 144-034-646
+2025-03-19 16:14:06,405 - INFO - 127.0.0.1 - - [19/Mar/2025 16:14:06] "[31m[1mGET /api/me?user_urn=83tFlkfvbJ HTTP/1.1[0m" 400 -
+2025-03-19 16:14:06,418 - INFO - 127.0.0.1 - - [19/Mar/2025 16:14:06] "[31m[1mGET /api/analytics?user_urn=83tFlkfvbJ HTTP/1.1[0m" 400 -
+2025-03-19 16:14:14,034 - INFO - 127.0.0.1 - - [19/Mar/2025 16:14:14] "[32mGET /api/linkedin-login HTTP/1.1[0m" 302 -
+2025-03-19 16:14:15,938 - INFO - User authenticated: 83tFlkfvbJ
+2025-03-19 16:14:15,940 - INFO - 127.0.0.1 - - [19/Mar/2025 16:14:15] "[32mGET /api/linkedin-callback?code=AQRL5DvuIWF1f8whepptJvpAKMcCcG3gyaK1LpT3stz1oVGxzpYJl_nmo4GFZcDVTBADqZ2DqcTkhsldDARpWXe5aYBWOIXut-mrw-K4rwSBPhhogC-3ge8oGd4VBNM9ARVTom17y3MJkw6ot6tD6kMa3QkCwDi3ZRCBKT9O1h3YotnaEPUUVzVniM_nsnjTSdDYBc4wk-QnZL3RaZw HTTP/1.1[0m" 302 -
+2025-03-19 16:14:16,139 - INFO - 127.0.0.1 - - [19/Mar/2025 16:14:16] "[31m[1mGET /api/me?user_urn=83tFlkfvbJ HTTP/1.1[0m" 400 -
+2025-03-19 16:14:16,145 - INFO - 127.0.0.1 - - [19/Mar/2025 16:14:16] "[31m[1mGET /api/analytics?user_urn=83tFlkfvbJ HTTP/1.1[0m" 400 -
+2025-03-19 16:15:44,445 - INFO -  * Detected change in '/home/prashant/Documents/work-related/projects/test/linkedin-agent/backend/app.py', reloading
+2025-03-19 16:15:44,959 - INFO -  * Restarting with stat
+2025-03-19 16:16:00,549 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.144:5000
+2025-03-19 16:16:00,549 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-19 16:16:00,550 - INFO -  * Restarting with stat
+2025-03-19 16:16:02,871 - WARNING -  * Debugger is active!
+2025-03-19 16:16:02,871 - INFO -  * Debugger PIN: 144-034-646
+2025-03-19 16:16:52,902 - INFO -  * Detected change in '/home/prashant/Documents/work-related/projects/test/linkedin-agent/backend/app.py', reloading
+2025-03-19 16:16:53,435 - INFO -  * Restarting with stat
+2025-03-19 16:16:56,479 - WARNING -  * Debugger is active!
+2025-03-19 16:16:56,479 - INFO -  * Debugger PIN: 144-034-646
+2025-03-19 16:17:05,025 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.144:5000
+2025-03-19 16:17:05,025 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-19 16:17:05,026 - INFO -  * Restarting with stat
+2025-03-19 16:17:09,078 - WARNING -  * Debugger is active!
+2025-03-19 16:17:09,079 - INFO -  * Debugger PIN: 144-034-646
+2025-03-19 16:18:01,300 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.144:5000
+2025-03-19 16:18:01,301 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-19 16:18:01,301 - INFO -  * Restarting with stat
+2025-03-19 16:18:05,412 - WARNING -  * Debugger is active!
+2025-03-19 16:18:05,412 - INFO -  * Debugger PIN: 144-034-646
+2025-03-19 16:18:08,455 - ERROR - Invalid user_urn: 83tFlkfvbJ
+2025-03-19 16:18:08,456 - INFO - 127.0.0.1 - - [19/Mar/2025 16:18:08] "[31m[1mGET /api/me?user_urn=83tFlkfvbJ HTTP/1.1[0m" 400 -
+2025-03-19 16:18:08,463 - INFO - 127.0.0.1 - - [19/Mar/2025 16:18:08] "[31m[1mGET /api/analytics?user_urn=83tFlkfvbJ HTTP/1.1[0m" 400 -
+2025-03-19 16:32:40,358 - ERROR - Invalid user_urn: 83tFlkfvbJ
+2025-03-19 16:32:40,358 - INFO - 127.0.0.1 - - [19/Mar/2025 16:32:40] "[31m[1mGET /api/me?user_urn=83tFlkfvbJ HTTP/1.1[0m" 400 -
+2025-03-19 16:32:40,365 - INFO - 127.0.0.1 - - [19/Mar/2025 16:32:40] "[31m[1mGET /api/analytics?user_urn=83tFlkfvbJ HTTP/1.1[0m" 400 -
+2025-03-19 16:32:53,710 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.144:5000
+2025-03-19 16:32:53,710 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-19 16:32:53,711 - INFO -  * Restarting with stat
+2025-03-19 16:32:57,840 - WARNING -  * Debugger is active!
+2025-03-19 16:32:57,841 - INFO -  * Debugger PIN: 144-034-646
+2025-03-19 16:33:05,110 - INFO - 127.0.0.1 - - [19/Mar/2025 16:33:05] "[32mGET /api/linkedin-login HTTP/1.1[0m" 302 -
+2025-03-19 16:33:05,637 - INFO - 127.0.0.1 - - [19/Mar/2025 16:33:05] "[35m[1mGET /api/linkedin-callback?code=AQRSePLpR80BN7wMt0TGNYCpTwBJAXxV_o5EG_oAnx0tqhI5NuuZmTIT3wJ99iQQeYn-EsglNkAsdcht4iC9pnOfRPOmS2tLBndwDN2F49D1tmXhRV7jcRClaNiEgSTmXxscGqYFKIgRkVgZj0SD-anT11JyrCGAi5eRhL1U6qvKC6URWwKSvaEP_Kai_k_1bUbBFE1n4KaUP4ee5ng HTTP/1.1[0m" 500 -
+2025-03-19 16:33:05,681 - INFO - 127.0.0.1 - - [19/Mar/2025 16:33:05] "[36mGET /api/linkedin-callback?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-03-19 16:33:05,682 - INFO - 127.0.0.1 - - [19/Mar/2025 16:33:05] "[36mGET /api/linkedin-callback?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-03-19 16:33:05,766 - INFO - 127.0.0.1 - - [19/Mar/2025 16:33:05] "GET /api/linkedin-callback?__debugger__=yes&cmd=resource&f=console.png&s=DlZJUzX3qUYaiUuwaXZy HTTP/1.1" 200 -
+2025-03-19 16:34:34,809 - INFO -  * Detected change in '/home/prashant/Documents/work-related/projects/test/linkedin-agent/backend/app.py', reloading
+2025-03-19 16:34:35,283 - INFO -  * Restarting with stat
+2025-03-19 16:34:38,380 - WARNING -  * Debugger is active!
+2025-03-19 16:34:38,380 - INFO -  * Debugger PIN: 144-034-646
+2025-03-19 16:34:40,493 - INFO -  * Detected change in '/home/prashant/Documents/work-related/projects/test/linkedin-agent/backend/app.py', reloading
+2025-03-19 16:34:40,816 - INFO -  * Restarting with stat
+2025-03-19 16:34:42,849 - WARNING -  * Debugger is active!
+2025-03-19 16:34:42,850 - INFO -  * Debugger PIN: 144-034-646
+2025-03-19 16:34:53,167 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.144:5000
+2025-03-19 16:34:53,167 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-19 16:34:53,168 - INFO -  * Restarting with stat
+2025-03-19 16:34:55,232 - WARNING -  * Debugger is active!
+2025-03-19 16:34:55,232 - INFO -  * Debugger PIN: 144-034-646
+2025-03-19 16:35:01,580 - INFO - User authenticated: 83tFlkfvbJ, Name: Prashant Upadhyay
+2025-03-19 16:35:01,582 - INFO - 127.0.0.1 - - [19/Mar/2025 16:35:01] "[32mGET /api/linkedin-callback?code=AQRSePLpR80BN7wMt0TGNYCpTwBJAXxV_o5EG_oAnx0tqhI5NuuZmTIT3wJ99iQQeYn-EsglNkAsdcht4iC9pnOfRPOmS2tLBndwDN2F49D1tmXhRV7jcRClaNiEgSTmXxscGqYFKIgRkVgZj0SD-anT11JyrCGAi5eRhL1U6qvKC6URWwKSvaEP_Kai_k_1bUbBFE1n4KaUP4ee5ng HTTP/1.1[0m" 302 -
+2025-03-19 16:35:01,908 - INFO - Returning profile for 83tFlkfvbJ: {'access_token': 'AQWUoxWP_wEQZG6zF2qzj_iURzzjbVOq91RHsMFw1wUL_wVaObeJ_Frktt3WIRIViagzMJ7Q4TgnMkN8iWlA36BoROeE5_vGNOg9_9XxkpKX4iBddaKCm_NV4cgGphM1JmZ7lTeKa2S5jEklUt2esZZ6BeGI8goU4l4sGtmeq1ARnXh9ItJ09W6GXT1X54uyuxTq5qq5NTzz5g7uwe9xxxidbYyG41fJHi7c9cBI8WliiCezawXLBH0PlHL2sUS7c9keJUgn3_2jJeDh5hdg1g1tceOM9paF_Q9liLInUyldsrzRRzQ5_fMQ1VQs25dKljw_5flm7bVO0bzKJfGiWQICMiDSZg', 'name': 'Prashant Upadhyay', 'designation': 'No Designation'}
+2025-03-19 16:35:01,909 - INFO - 127.0.0.1 - - [19/Mar/2025 16:35:01] "GET /api/me?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 16:35:01,912 - INFO - 127.0.0.1 - - [19/Mar/2025 16:35:01] "GET /api/analytics?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 16:35:16,120 - INFO - 127.0.0.1 - - [19/Mar/2025 16:35:16] "OPTIONS /api/generate-posts HTTP/1.1" 200 -
+2025-03-19 16:35:16,143 - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-03-19 16:35:18,627 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 16:35:18,651 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-19 16:35:18,658 - INFO - Raw OpenAI output: 1. "👋 Hey LinkedIn Family! Sometimes it's the simplest words that open the door to connection. A simple 'hi' can spark a conversation, lead to collaborations, or even turn into long-lasting professional relationships. Next time you reach out to someone, remember that the power of a friendly greeting can create opportunities beyond what we imagine. Let's break the ice together! What's your go-to conversation starter? 💬 #Networking #Connection #Opportunities"  
+
+2. "🌟 It all starts with a 'hi'! In our fast-paced world, it’s easy to overlook the importance of connections. But that friendly greeting can lead to something incredible - new ideas, partnerships, and friendships. I've built so many rewarding relationships on the foundation of a simple 'hello'. How do you initiate conversations and build connections in your field? Share your experiences below! 👇 #Networking #Relationships #ProfessionalGrowth"  
+
+3. "🌍 A simple word with monumental potential - 'hi'! Every great connection starts with an introduction, and sometimes the smallest gestures can have the biggest impact. Whether you’re networking at an event or reaching out via LinkedIn, don’t underestimate the power of that first greeting. What was your most memorable 'hi' moment that opened new doors for you? Let's celebrate the small beginnings that lead to great journeys! 🚀 #FirstImpressions #Networking #ProfessionalJourney"
+2025-03-19 16:35:18,659 - INFO - Processed variations: ['"👋 Hey LinkedIn Family! Sometimes it\'s the simplest words that open the door to connection. A simple \'hi\' can spark a conversation, lead to collaborations, or even turn into long-lasting professional relationships. Next time you reach out to someone, remember that the power of a friendly greeting can create opportunities beyond what we imagine. Let\'s break the ice together! What\'s your go-to conversation starter? 💬 #Networking #Connection #Opportunities"', '"🌟 It all starts with a \'hi\'! In our fast-paced world, it’s easy to overlook the importance of connections. But that friendly greeting can lead to something incredible - new ideas, partnerships, and friendships. I\'ve built so many rewarding relationships on the foundation of a simple \'hello\'. How do you initiate conversations and build connections in your field? Share your experiences below! 👇 #Networking #Relationships #ProfessionalGrowth"', '"🌍 A simple word with monumental potential - \'hi\'! Every great connection starts with an introduction, and sometimes the smallest gestures can have the biggest impact. Whether you’re networking at an event or reaching out via LinkedIn, don’t underestimate the power of that first greeting. What was your most memorable \'hi\' moment that opened new doors for you? Let\'s celebrate the small beginnings that lead to great journeys! 🚀 #FirstImpressions #Networking #ProfessionalJourney"']
+2025-03-19 16:35:18,659 - INFO - 127.0.0.1 - - [19/Mar/2025 16:35:18] "POST /api/generate-posts HTTP/1.1" 200 -
+2025-03-19 16:38:29,241 - INFO - 127.0.0.1 - - [19/Mar/2025 16:38:29] "[32mGET /api/linkedin-login HTTP/1.1[0m" 302 -
+2025-03-19 16:38:31,173 - INFO - User authenticated: 83tFlkfvbJ, Name: Prashant Upadhyay
+2025-03-19 16:38:31,174 - INFO - 127.0.0.1 - - [19/Mar/2025 16:38:31] "[32mGET /api/linkedin-callback?code=AQQ3UjEe1xY3dF5oyKN8igKlfJS31vOiiogt31-RSt9YpXgr5nb6ERaTehVbP0KFvI2jBHxFjX4QXPELOtq2ObSHShZpwr0kPDFw4JGv9vLb8pW2ARzwuzc_2BRK5raecl_Exk-K6BZuLcfKh9BiCmcj1_7SWPCYo2Zbwgsrx14Q3yTxfFQNKFLzAN1WdlJ23l9wxVMHoTYLbAQIjgA HTTP/1.1[0m" 302 -
+2025-03-19 16:38:31,464 - INFO - Returning profile for 83tFlkfvbJ: {'access_token': 'AQXAf3phPyEN8Esg3_U44LRYOCf0aphtUQDOey_nEzgas5eFr4OgKsBqn-L_edM-img0ICU4rjL6hDfZkkrEaegiPRt_F3KjGyjGJV_pYgFSEiA6wjYLUT5kXtD5FtF71bAdg9Q0fgAVoK6Y-MRC2712n0m1j4TGOcTLUoeTQgkm9dZBlvkwGv8QfCS-Ki-r3XuYgXsKAEJ7pXpS8Jvy129Nx6kPPfYO56w_bQFFdJ0JP-cDXSKVW0Kmo0HbEpFb-qdsVm66XveSCFKhWx46oXy6p3aEHQc__9FDF48z7oYEs-XCsJDI4Sq_1kdf12p6M8B--CzHBZYwLfIUe1OKevMSFkv14A', 'name': 'Prashant Upadhyay', 'designation': 'No Designation'}
+2025-03-19 16:38:31,465 - INFO - 127.0.0.1 - - [19/Mar/2025 16:38:31] "GET /api/me?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 16:38:31,466 - INFO - 127.0.0.1 - - [19/Mar/2025 16:38:31] "GET /api/analytics?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 16:38:39,630 - INFO - 127.0.0.1 - - [19/Mar/2025 16:38:39] "OPTIONS /api/generate-posts HTTP/1.1" 200 -
+2025-03-19 16:38:39,645 - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-03-19 16:38:43,134 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 16:38:43,137 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-19 16:38:43,146 - INFO - Raw OpenAI output: 1. "🌟 A simple greeting can spark meaningful connections! 🌟 Just like a friendly 'Hi' can brighten your day, reaching out on LinkedIn can open doors to new opportunities, collaborations, and insights! Let’s embrace the power of community and create a space where we support one another. So here’s a reminder: don’t underestimate the magic of a simple 'Hi'! Who have you reached out to this week? #Networking #CommunityBuilding"
+
+2. "👋 'Hi' is more than just a word; it's an invitation. In the fast-paced world we live in, a quick greeting can be the beginning of a powerful conversation. Whether it's rekindling an old connection or introducing yourself to someone new, taking that first step can lead to amazing possibilities. So don’t hesitate! Say 'Hi' to someone today and watch the potential unfold! What new connections are you excited to make? #Connection #ProfessionalGrowth"
+
+3. "✉️ The power of 'Hi' in the professional world should not be underestimated! 🚀 A simple greeting can set the tone for collaboration, foster relationships, and even lead to your dream job! Next time you log into LinkedIn, remember: behind every profile is a real person with aspirations and stories to share. So take that initiative, extend your hand (or keyboard), and say 'Hi'! Who knows where it might lead? #CareerAdvice #NetworkingTips"
+2025-03-19 16:38:43,147 - INFO - Processed variations: ['"🌟 A simple greeting can spark meaningful connections! 🌟 Just like a friendly \'Hi\' can brighten your day, reaching out on LinkedIn can open doors to new opportunities, collaborations, and insights! Let’s embrace the power of community and create a space where we support one another. So here’s a reminder: don’t underestimate the magic of a simple \'Hi\'! Who have you reached out to this week? #Networking #CommunityBuilding"', '"👋 \'Hi\' is more than just a word; it\'s an invitation. In the fast-paced world we live in, a quick greeting can be the beginning of a powerful conversation. Whether it\'s rekindling an old connection or introducing yourself to someone new, taking that first step can lead to amazing possibilities. So don’t hesitate! Say \'Hi\' to someone today and watch the potential unfold! What new connections are you excited to make? #Connection #ProfessionalGrowth"', '"✉️ The power of \'Hi\' in the professional world should not be underestimated! 🚀 A simple greeting can set the tone for collaboration, foster relationships, and even lead to your dream job! Next time you log into LinkedIn, remember: behind every profile is a real person with aspirations and stories to share. So take that initiative, extend your hand (or keyboard), and say \'Hi\'! Who knows where it might lead? #CareerAdvice #NetworkingTips"']
+2025-03-19 16:38:43,148 - INFO - 127.0.0.1 - - [19/Mar/2025 16:38:43] "POST /api/generate-posts HTTP/1.1" 200 -
+2025-03-19 16:38:50,415 - INFO - 127.0.0.1 - - [19/Mar/2025 16:38:50] "GET /api/scheduled-posts?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 16:39:03,162 - INFO - 127.0.0.1 - - [19/Mar/2025 16:39:03] "OPTIONS /api/schedule-post HTTP/1.1" 200 -
+2025-03-19 16:39:03,168 - INFO - 127.0.0.1 - - [19/Mar/2025 16:39:03] "POST /api/schedule-post HTTP/1.1" 200 -
+2025-03-19 16:39:03,178 - INFO - 127.0.0.1 - - [19/Mar/2025 16:39:03] "GET /api/scheduled-posts?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 16:39:06,671 - INFO - 127.0.0.1 - - [19/Mar/2025 16:39:06] "GET /api/scheduled-posts?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 16:40:02,130 - INFO - 127.0.0.1 - - [19/Mar/2025 16:40:02] "GET /api/analytics?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 16:40:35,597 - INFO - 127.0.0.1 - - [19/Mar/2025 16:40:35] "GET /api/scheduled-posts?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 16:41:35,591 - INFO - 127.0.0.1 - - [19/Mar/2025 16:41:35] "GET /api/scheduled-posts?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 16:42:35,591 - INFO - 127.0.0.1 - - [19/Mar/2025 16:42:35] "GET /api/scheduled-posts?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 16:43:35,591 - INFO - 127.0.0.1 - - [19/Mar/2025 16:43:35] "GET /api/scheduled-posts?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 16:44:35,592 - INFO - 127.0.0.1 - - [19/Mar/2025 16:44:35] "GET /api/scheduled-posts?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 16:45:35,598 - INFO - 127.0.0.1 - - [19/Mar/2025 16:45:35] "GET /api/scheduled-posts?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 16:46:35,591 - INFO - 127.0.0.1 - - [19/Mar/2025 16:46:35] "GET /api/scheduled-posts?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 16:47:04,834 - INFO -  * Detected change in '/home/prashant/Documents/work-related/projects/test/linkedin-agent/backend/app.py', reloading
+2025-03-19 16:47:05,271 - INFO -  * Restarting with stat
+2025-03-19 16:48:46,064 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.144:5000
+2025-03-19 16:48:46,064 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-19 16:48:46,064 - INFO -  * Restarting with stat
+2025-03-19 16:48:48,057 - WARNING -  * Debugger is active!
+2025-03-19 16:48:48,058 - INFO -  * Debugger PIN: 144-034-646
+2025-03-19 16:49:03,419 - INFO -  * Detected change in '/home/prashant/Documents/work-related/projects/test/linkedin-agent/backend/app.py', reloading
+2025-03-19 16:49:03,797 - INFO -  * Restarting with stat
+2025-03-19 16:49:34,846 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.144:5000
+2025-03-19 16:49:34,846 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-19 16:49:34,847 - INFO -  * Restarting with stat
+2025-03-19 16:49:37,038 - WARNING -  * Debugger is active!
+2025-03-19 16:49:37,039 - INFO -  * Debugger PIN: 144-034-646
+2025-03-19 16:49:37,053 - INFO - 127.0.0.1 - - [19/Mar/2025 16:49:37] "[31m[1mGET /api/scheduled-posts?user_urn=83tFlkfvbJ HTTP/1.1[0m" 400 -
+2025-03-19 16:49:52,401 - INFO - 127.0.0.1 - - [19/Mar/2025 16:49:52] "[32mGET /api/linkedin-login HTTP/1.1[0m" 302 -
+2025-03-19 16:49:57,381 - INFO - User authenticated: 83tFlkfvbJ, Name: Prashant Upadhyay
+2025-03-19 16:49:57,382 - INFO - 127.0.0.1 - - [19/Mar/2025 16:49:57] "[32mGET /api/linkedin-callback?code=AQTPClvBUWSU_PkznmpHSeJO47HssY0UbRTD0GSwcUK2-ohwSuyw86rSRO2OM0yuw_w1kTIDW3ROgRXZTJj-GIh_Nodvw-GA07Qlfco6dIh49wbt4zRmOpGMMU8diTwIQ8v8i5ctXa0UJ3pC8RzerwJpxgTqCfALdDGTLLZ3kc-RCMKGPZsrYeKecRS6qcCKSODHjk9G090v-GumR8g HTTP/1.1[0m" 302 -
+2025-03-19 16:49:57,660 - INFO - Returning profile for 83tFlkfvbJ: {'access_token': 'AQWEVllFeaviZpZFEDA2iMKblS61qOsowbKLvilL90VE0VbMkThlct-vLW5oh3WRGaAnx0_jWh9V9fOwSMoMe8Be_tO9_qYCYTs98wKbxll667VCCXnGflFCJQFaH99SBhkzrPU65bSXretftNeb7UFmOjXY1hXx8eR-ovF4jahAx8vWBS8Y98N2EssliRBpChW-1RgVrO61MW57_DwMMdfjQQPC3JkN82Vmc-HvsmLRzSRjHqjTBZbji1VIooNxhU3z2HZLtbPPBVwqk73XurOmAwp10OWKoZdHCLFLFsN34mtVIqnKftoorKzmcHOU1b1nk5p79t8KOEN-0c-V8Ficnejn4w', 'name': 'Prashant Upadhyay', 'designation': 'No Designation'}
+2025-03-19 16:49:57,660 - INFO - 127.0.0.1 - - [19/Mar/2025 16:49:57] "GET /api/me?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 16:49:57,662 - INFO - 127.0.0.1 - - [19/Mar/2025 16:49:57] "GET /api/analytics?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 16:50:01,224 - INFO - 127.0.0.1 - - [19/Mar/2025 16:50:01] "OPTIONS /api/generate-posts HTTP/1.1" 200 -
+2025-03-19 16:50:01,243 - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-03-19 16:50:04,059 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 16:50:04,082 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-19 16:50:04,090 - INFO - Raw OpenAI output: 1. "🌐 The Power of a Simple Greeting: 'Hi!' 👋 In a world overflowing with digital communication, you might think that a simple 'hi' could get lost among the clamor. But this unassuming word can ignite connections and open doors to opportunities. It’s the first building block of engagement in any relationship—be it personal, professional, or virtual. Next time you start a conversation, think about how a friendly greeting can set the tone for collaboration and creativity. Let's embrace open communication; sometimes, all it takes is a 'hi' to change the trajectory of someone's day! #Networking #Connection #Communication"
+
+2. "🚀 A Single Word that Packs a Punch: 'Hi!' When we greet someone with 'hi', we're not just acknowledging their presence; we're affirming their value! As professionals, let's remember that every interaction counts. A casual 'hi' can lead to brainstorming sessions, mentorship opportunities, and new partnerships. This small action demonstrates accessibility and warmth, two essential traits in today’s workplace. So whether you're initiating a conversation with a colleague, client, or a connection online, don’t underestimate the power of this simple word. Make it count! #Leadership #Engagement #Professionalism"
+
+3. "💬 Starting with 'Hi': The Catalyst for Connection! Have you ever considered the impact of a simple greeting? A 'hi' introduces you to a world of conversations waiting to happen! It’s more than just a word; it’s an invitation to communicate. In our professional lives, building relationships is fundamental, and often, all it takes is that initial spark. So the next time you log on, take a moment to say 'hi' to someone new or reconnect with an old teammate. You may be surprised at where that greeting could lead. Let’s start the dialogue and create a community of support and inspiration! #NetworkingMatters #Community #Relationships"
+2025-03-19 16:50:04,090 - INFO - Processed variations: ['"🌐 The Power of a Simple Greeting: \'Hi!\' 👋 In a world overflowing with digital communication, you might think that a simple \'hi\' could get lost among the clamor. But this unassuming word can ignite connections and open doors to opportunities. It’s the first building block of engagement in any relationship—be it personal, professional, or virtual. Next time you start a conversation, think about how a friendly greeting can set the tone for collaboration and creativity. Let\'s embrace open communication; sometimes, all it takes is a \'hi\' to change the trajectory of someone\'s day! #Networking #Connection #Communication"', '"🚀 A Single Word that Packs a Punch: \'Hi!\' When we greet someone with \'hi\', we\'re not just acknowledging their presence; we\'re affirming their value! As professionals, let\'s remember that every interaction counts. A casual \'hi\' can lead to brainstorming sessions, mentorship opportunities, and new partnerships. This small action demonstrates accessibility and warmth, two essential traits in today’s workplace. So whether you\'re initiating a conversation with a colleague, client, or a connection online, don’t underestimate the power of this simple word. Make it count! #Leadership #Engagement #Professionalism"', '"💬 Starting with \'Hi\': The Catalyst for Connection! Have you ever considered the impact of a simple greeting? A \'hi\' introduces you to a world of conversations waiting to happen! It’s more than just a word; it’s an invitation to communicate. In our professional lives, building relationships is fundamental, and often, all it takes is that initial spark. So the next time you log on, take a moment to say \'hi\' to someone new or reconnect with an old teammate. You may be surprised at where that greeting could lead. Let’s start the dialogue and create a community of support and inspiration! #NetworkingMatters #Community #Relationships"']
+2025-03-19 16:50:04,090 - INFO - 127.0.0.1 - - [19/Mar/2025 16:50:04] "POST /api/generate-posts HTTP/1.1" 200 -
+2025-03-19 16:50:15,595 - INFO - 127.0.0.1 - - [19/Mar/2025 16:50:15] "GET /api/scheduled-posts?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 16:50:22,219 - INFO - 127.0.0.1 - - [19/Mar/2025 16:50:22] "OPTIONS /api/schedule-post HTTP/1.1" 200 -
+2025-03-19 16:50:22,223 - INFO - 127.0.0.1 - - [19/Mar/2025 16:50:22] "POST /api/schedule-post HTTP/1.1" 200 -
+2025-03-19 16:50:22,230 - INFO - 127.0.0.1 - - [19/Mar/2025 16:50:22] "GET /api/scheduled-posts?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 16:50:24,702 - INFO - 127.0.0.1 - - [19/Mar/2025 16:50:24] "GET /api/scheduled-posts?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 16:51:24,708 - INFO - 127.0.0.1 - - [19/Mar/2025 16:51:24] "GET /api/scheduled-posts?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 16:52:24,707 - INFO - 127.0.0.1 - - [19/Mar/2025 16:52:24] "GET /api/scheduled-posts?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 16:53:24,708 - INFO - 127.0.0.1 - - [19/Mar/2025 16:53:24] "GET /api/scheduled-posts?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 16:53:44,327 - INFO - 127.0.0.1 - - [19/Mar/2025 16:53:44] "OPTIONS /api/schedule-post HTTP/1.1" 200 -
+2025-03-19 16:53:44,329 - INFO - 127.0.0.1 - - [19/Mar/2025 16:53:44] "POST /api/schedule-post HTTP/1.1" 200 -
+2025-03-19 16:53:44,334 - INFO - 127.0.0.1 - - [19/Mar/2025 16:53:44] "GET /api/scheduled-posts?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 16:54:06,764 - INFO - 127.0.0.1 - - [19/Mar/2025 16:54:06] "GET /api/scheduled-posts?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 16:54:18,824 - INFO - 127.0.0.1 - - [19/Mar/2025 16:54:18] "OPTIONS /api/schedule-post HTTP/1.1" 200 -
+2025-03-19 16:54:18,829 - INFO - 127.0.0.1 - - [19/Mar/2025 16:54:18] "POST /api/schedule-post HTTP/1.1" 200 -
+2025-03-19 16:54:18,839 - INFO - 127.0.0.1 - - [19/Mar/2025 16:54:18] "GET /api/scheduled-posts?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 16:54:21,936 - INFO - 127.0.0.1 - - [19/Mar/2025 16:54:21] "GET /api/scheduled-posts?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 16:54:38,606 - INFO - Successfully posted to LinkedIn for 83tFlkfvbJ
+2025-03-19 16:54:39,660 - ERROR - Failed to post to LinkedIn for 83tFlkfvbJ: {"errorDetailType":"com.linkedin.common.error.BadRequest","message":"com.linkedin.content.common.exception.BadRequestResponseException: Content is a duplicate of urn:li:share:7308085997261545472","errorDetails":{"inputErrors":[{"description":"Duplicate post is detected","input":{},"code":"DUPLICATE_POST"}]},"status":422}
+2025-03-19 16:55:18,045 - INFO - 127.0.0.1 - - [19/Mar/2025 16:55:18] "OPTIONS /api/cancel-post HTTP/1.1" 200 -
+2025-03-19 16:55:18,050 - INFO - Canceled post with ID: 20250319165344_8889487502536113371
+2025-03-19 16:55:18,051 - INFO - 127.0.0.1 - - [19/Mar/2025 16:55:18] "POST /api/cancel-post HTTP/1.1" 200 -
+2025-03-19 16:55:18,061 - INFO - 127.0.0.1 - - [19/Mar/2025 16:55:18] "GET /api/scheduled-posts?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 16:55:22,287 - INFO - 127.0.0.1 - - [19/Mar/2025 16:55:22] "GET /api/scheduled-posts?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 17:17:14,333 - INFO - 127.0.0.1 - - [19/Mar/2025 17:17:14] "[32mGET /api/linkedin-login HTTP/1.1[0m" 302 -
+2025-03-19 17:17:24,638 - INFO - User authenticated: 83tFlkfvbJ, Name: Prashant Upadhyay
+2025-03-19 17:17:24,639 - INFO - 127.0.0.1 - - [19/Mar/2025 17:17:24] "[32mGET /api/linkedin-callback?code=AQTBIytWcJ2LKqmvYlfc2dXLZ2nswh4r4Z4aiCn0O7-L7bISI3E8dpK8W5UPRUzzs5LOkudn9roGNkF4rDffFyhStEr_sLarIHHvSOze4Bud5YNRFjC4SaHQcp_7e3C6WpdKS_shN2GUCqyn6HKo-TwfIbXqvWBmguujd_319psteZl8yTDRpj9g3Q2W-GB4HY_zz5nn4g7CHlmN67Y HTTP/1.1[0m" 302 -
+2025-03-19 17:17:24,981 - INFO - Returning profile for 83tFlkfvbJ: {'access_token': 'AQWMGpbDL8NEnOdIHu_QruepnFetjGtFK12vlSfGv5cg6Z--HheaB0LecBqmlhygrKeLJETBZDXhyT0YWh0uhBRbgFw_JLCoMMHrlDAd6gTOi2olzxZG-yjNbqcClp3C8xsw-4OMph8c4PmEP-zgc83MByiqcu4eDiV-eg37_AUY0G6emRhr6iHYdnWajiyT5wm_q-91800_-5FB0gIwcnLA-MBbdupvQnBfpdYd5jJR56MgcO7uJkAxIkZw-TfZac0HneY50Tsl4pj3QDXPJTkad8MN4akkOpy1NNlIK-TijlGWiZnAnQS7vkw3GSg3MZXzd6iz9NpUXCVpZRpPofOlyeYstQ', 'name': 'Prashant Upadhyay', 'designation': 'No Designation'}
+2025-03-19 17:17:24,982 - INFO - 127.0.0.1 - - [19/Mar/2025 17:17:24] "GET /api/me?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 17:17:24,983 - INFO - 127.0.0.1 - - [19/Mar/2025 17:17:24] "GET /api/analytics?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 17:17:45,223 - INFO - 127.0.0.1 - - [19/Mar/2025 17:17:45] "OPTIONS /api/generate-posts HTTP/1.1" 200 -
+2025-03-19 17:17:45,235 - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-03-19 17:17:49,307 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 17:17:49,315 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-19 17:17:49,325 - INFO - Raw OpenAI output: 1. "🌟 **The Power of a Simple 'Hi'** 🌟  
+Ever thought about how impactful a simple greeting can be? A 'hi' can break the ice, open the door to new conversations, and foster connections that might lead to incredible opportunities. In our busy professional lives, let's not underestimate the value of reaching out, no matter how small the gesture seems. So, next time you see a colleague, a potential partner, or even a connection on LinkedIn, don't just scroll past—take a moment and say 'hi.' You never know where it might lead! Let's fill our networks with curiosity and kindness. What new connections have you made recently with a simple greeting? 🤝 #Networking #Communication"
+
+2. "👋 **A Friendly Reminder: Just Say 'Hi'!**  
+In the digital age, we often overlook the power of a warm greeting. It's funny how 'hi' can be the simplest yet most significant word in your professional toolkit. Whether it's an email to a coworker or a message to someone you'd like to know better on LinkedIn, saying 'hi' can kickstart a conversation that opens doors. It’s for a reason they say, 'it's not what you know, but who you know.' So let’s keep our professional relationships alive! Who are you going to say 'hi' to today? 🗨️✨ #ProfessionalGrowth #Connections"
+
+3. "🔥 **Unlock Opportunities with 'Hi'** 🔥  
+In business and life, we often overcomplicate things. But sometimes, the simplest actions can have the most profound effects. A 'hi' can signal openness, friendliness, and readiness to engage. In a world where digital interactions can feel distant, making an effort to reach out with a genuine greeting can set the tone for an exciting connection. Let's champion the power of conversation! Next time you're about to connect, remember - a little greeting goes a long way. Let's connect and engage more often on LinkedIn! Who will you reach out to? 🌍🤗 #RelationshipBuilding #Engagement"
+2025-03-19 17:17:49,325 - INFO - Processed variations: ['"🌟 **The Power of a Simple \'Hi\'** 🌟  \nEver thought about how impactful a simple greeting can be? A \'hi\' can break the ice, open the door to new conversations, and foster connections that might lead to incredible opportunities. In our busy professional lives, let\'s not underestimate the value of reaching out, no matter how small the gesture seems. So, next time you see a colleague, a potential partner, or even a connection on LinkedIn, don\'t just scroll past—take a moment and say \'hi.\' You never know where it might lead! Let\'s fill our networks with curiosity and kindness. What new connections have you made recently with a simple greeting? 🤝 #Networking #Communication"', '"👋 **A Friendly Reminder: Just Say \'Hi\'!**  \nIn the digital age, we often overlook the power of a warm greeting. It\'s funny how \'hi\' can be the simplest yet most significant word in your professional toolkit. Whether it\'s an email to a coworker or a message to someone you\'d like to know better on LinkedIn, saying \'hi\' can kickstart a conversation that opens doors. It’s for a reason they say, \'it\'s not what you know, but who you know.\' So let’s keep our professional relationships alive! Who are you going to say \'hi\' to today? 🗨️✨ #ProfessionalGrowth #Connections"', '"🔥 **Unlock Opportunities with \'Hi\'** 🔥  \nIn business and life, we often overcomplicate things. But sometimes, the simplest actions can have the most profound effects. A \'hi\' can signal openness, friendliness, and readiness to engage. In a world where digital interactions can feel distant, making an effort to reach out with a genuine greeting can set the tone for an exciting connection. Let\'s champion the power of conversation! Next time you\'re about to connect, remember - a little greeting goes a long way. Let\'s connect and engage more often on LinkedIn! Who will you reach out to? 🌍🤗 #RelationshipBuilding #Engagement"']
+2025-03-19 17:17:49,326 - INFO - 127.0.0.1 - - [19/Mar/2025 17:17:49] "POST /api/generate-posts HTTP/1.1" 200 -
+2025-03-19 17:20:32,456 - INFO - 127.0.0.1 - - [19/Mar/2025 17:20:32] "GET /api/scheduled-posts?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 17:20:40,987 - INFO - 127.0.0.1 - - [19/Mar/2025 17:20:40] "OPTIONS /api/schedule-post HTTP/1.1" 200 -
+2025-03-19 17:20:40,993 - INFO - 127.0.0.1 - - [19/Mar/2025 17:20:40] "POST /api/schedule-post HTTP/1.1" 200 -
+2025-03-19 17:20:41,003 - INFO - 127.0.0.1 - - [19/Mar/2025 17:20:41] "GET /api/scheduled-posts?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 17:20:44,910 - INFO - 127.0.0.1 - - [19/Mar/2025 17:20:44] "GET /api/scheduled-posts?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 17:21:41,054 - INFO - Successfully posted to LinkedIn for 83tFlkfvbJ
+2025-03-19 17:21:44,901 - INFO - 127.0.0.1 - - [19/Mar/2025 17:21:44] "GET /api/scheduled-posts?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 17:22:34,411 - INFO - 127.0.0.1 - - [19/Mar/2025 17:22:34] "GET /api/scheduled-posts?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 17:22:56,900 - INFO - 127.0.0.1 - - [19/Mar/2025 17:22:56] "GET /api/scheduled-posts?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 17:23:56,899 - INFO - 127.0.0.1 - - [19/Mar/2025 17:23:56] "GET /api/scheduled-posts?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 17:24:56,898 - INFO - 127.0.0.1 - - [19/Mar/2025 17:24:56] "GET /api/scheduled-posts?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 17:25:01,849 - INFO - 127.0.0.1 - - [19/Mar/2025 17:25:01] "[32mGET /api/linkedin-login HTTP/1.1[0m" 302 -
+2025-03-19 17:25:03,740 - INFO - User authenticated: 83tFlkfvbJ, Name: Prashant Upadhyay
+2025-03-19 17:25:03,741 - INFO - 127.0.0.1 - - [19/Mar/2025 17:25:03] "[32mGET /api/linkedin-callback?code=AQRcWgCfLzNLceZSy06jKjcGi32ZinEo6163ttTgHQt4mr5EcsgRytjgdToG7n5lZBnEPhsWSaohhf0KGMf-hHdoyElynH6vtCvWv09RFsvzELoF-_1TGAYBKrBQ3yW0AkTvbWPr_sDFxB012_bMS8hMMfpf8HmWEdHONvtrH4zMl1Kj14NYuPmh-revAgLHo7-N5BB5ocsZcSPALUo HTTP/1.1[0m" 302 -
+2025-03-19 17:25:04,372 - INFO - Returning profile for 83tFlkfvbJ: {'access_token': 'AQWMa2pQ2ArI2FkS_ItA-_zKwMN-IRtQ8_jeiLKGlYk0Pt8wIV1gKMuWkBidoh2e4K52grrKbYR6ctlQZ7mlhnATIddfRM6bY_um1SSK615M-3StD-GbfdmPi8RQNKJvZY99HAR4k_UTooIXk6n4aLG3Fv4gpNv6hStl6HlzovDcjHPTP1K9VoXHfjwmhxzuz5vlK7JIs7bsoV7KbeAnOQkJ7KCD7B9UnOXSTaTCQHaHv2A-EcPs1yzzepAGafAFfyGwJMlnLSFgmdtjI43LNk6Lc88qrC7GQLSOVEIHYzEHWTrAnFg0JEkt-PW0QjpvKDx7jMVGrklo-TEh3TZbxqqPSY04-Q', 'name': 'Prashant Upadhyay', 'designation': 'No Designation'}
+2025-03-19 17:25:04,373 - INFO - 127.0.0.1 - - [19/Mar/2025 17:25:04] "GET /api/me?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 17:25:04,389 - INFO - 127.0.0.1 - - [19/Mar/2025 17:25:04] "GET /api/analytics?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 17:25:12,459 - INFO - 127.0.0.1 - - [19/Mar/2025 17:25:12] "OPTIONS /api/generate-posts HTTP/1.1" 200 -
+2025-03-19 17:25:12,474 - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-03-19 17:25:14,704 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 17:25:14,706 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-19 17:25:14,714 - INFO - Raw OpenAI output: 1. "🌟 Hoi hoi! Ever felt the power of a simple greeting? In our fast-paced professional world, a small hello can spark big connections! Let’s take a moment to embrace the 'hoi hoi' spirit - it’s not just a casual greeting; it’s an invitation to connect, collaborate, and create. How do you initiate meaningful conversations in your network? Share your tips below! #Networking #ProfessionalConnections #HoiHoi"
+
+2. "🌏 Hoi hoi! Language is a beautiful tool that transcends borders and connects us on a deeper level. Today, I want to celebrate the informal tones - like 'hoi hoi' - that break the ice and bring a friendly vibe into our workplaces. Whether you’re sending a quick message or walking into a meeting, remember the power of being approachable. What’s your go-to phrase for lightening the mood? Drop it in the comments! #Communication #WorkCulture #HoiHoi"
+
+3. "🤝 Hoi hoi! In our continuous journey of professional growth, let’s not forget the importance of warmth in our interactions! ‘Hoi hoi’ isn’t just a fun way to say hello; it embodies openness and the willingness to engage. As we strive to build better relationships, let's remember to humanize our communication. What casual greetings do you use to build rapport at work? Share your experiences! #Leadership #Engagement #HoiHoi"
+2025-03-19 17:25:14,714 - INFO - Processed variations: ['"🌟 Hoi hoi! Ever felt the power of a simple greeting? In our fast-paced professional world, a small hello can spark big connections! Let’s take a moment to embrace the \'hoi hoi\' spirit - it’s not just a casual greeting; it’s an invitation to connect, collaborate, and create. How do you initiate meaningful conversations in your network? Share your tips below! #Networking #ProfessionalConnections #HoiHoi"', '"🌏 Hoi hoi! Language is a beautiful tool that transcends borders and connects us on a deeper level. Today, I want to celebrate the informal tones - like \'hoi hoi\' - that break the ice and bring a friendly vibe into our workplaces. Whether you’re sending a quick message or walking into a meeting, remember the power of being approachable. What’s your go-to phrase for lightening the mood? Drop it in the comments! #Communication #WorkCulture #HoiHoi"', '"🤝 Hoi hoi! In our continuous journey of professional growth, let’s not forget the importance of warmth in our interactions! ‘Hoi hoi’ isn’t just a fun way to say hello; it embodies openness and the willingness to engage. As we strive to build better relationships, let\'s remember to humanize our communication. What casual greetings do you use to build rapport at work? Share your experiences! #Leadership #Engagement #HoiHoi"']
+2025-03-19 17:25:14,715 - INFO - 127.0.0.1 - - [19/Mar/2025 17:25:14] "POST /api/generate-posts HTTP/1.1" 200 -
+2025-03-19 17:25:23,518 - INFO - 127.0.0.1 - - [19/Mar/2025 17:25:23] "GET /api/scheduled-posts?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 17:25:56,898 - INFO - 127.0.0.1 - - [19/Mar/2025 17:25:56] "GET /api/scheduled-posts?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 17:26:23,603 - INFO - 127.0.0.1 - - [19/Mar/2025 17:26:23] "GET /api/scheduled-posts?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 17:26:30,716 - INFO - 127.0.0.1 - - [19/Mar/2025 17:26:30] "GET /api/scheduled-posts?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 17:26:45,209 - INFO - 127.0.0.1 - - [19/Mar/2025 17:26:45] "OPTIONS /api/schedule-post HTTP/1.1" 200 -
+2025-03-19 17:26:45,216 - INFO - 127.0.0.1 - - [19/Mar/2025 17:26:45] "POST /api/schedule-post HTTP/1.1" 200 -
+2025-03-19 17:26:45,229 - INFO - 127.0.0.1 - - [19/Mar/2025 17:26:45] "GET /api/scheduled-posts?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 17:26:51,656 - INFO - 127.0.0.1 - - [19/Mar/2025 17:26:51] "GET /api/scheduled-posts?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 17:26:56,901 - INFO - 127.0.0.1 - - [19/Mar/2025 17:26:56] "GET /api/scheduled-posts?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 17:27:03,100 - INFO - 127.0.0.1 - - [19/Mar/2025 17:27:03] "OPTIONS /api/schedule-post HTTP/1.1" 200 -
+2025-03-19 17:27:03,104 - INFO - 127.0.0.1 - - [19/Mar/2025 17:27:03] "POST /api/schedule-post HTTP/1.1" 200 -
+2025-03-19 17:27:03,112 - INFO - 127.0.0.1 - - [19/Mar/2025 17:27:03] "GET /api/scheduled-posts?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 17:27:07,817 - INFO - 127.0.0.1 - - [19/Mar/2025 17:27:07] "OPTIONS /api/generate-posts HTTP/1.1" 200 -
+2025-03-19 17:27:07,829 - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-03-19 17:27:10,443 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 17:27:10,454 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-19 17:27:10,461 - INFO - Raw OpenAI output: 1. "👋 Hi LinkedIn family! Today, I just wanted to take a moment to connect with you all. Whether you're a new connection, a familiar face, or someone I've yet to meet, I’d love to hear from you! Let's make this platform a little more personal—what motivates you in your career? Share your stories or insights in the comments below! Let’s engage and inspire each other. #Networking #CareerGrowth #Community"
+
+2. "✨ Hello there! A simple 'hi' can open doors to amazing conversations and opportunities. In the spirit of connection, I encourage you to say 'hi' to someone today—be it a colleague, mentor, or even a new connection! You never know where a small greeting might lead. Let’s keep this community vibrant and supportive! What does 'connection' mean to you? Share your thoughts! #Connection #Networking #Opportunities"
+
+3. "🌟 Hi everyone! Just popping in to remind you of the power of a friendly 'hi'. In our fast-paced professional lives, we might forget to pause and reach out. Let’s turn this platform into a hub of interaction! Share your 'hi' in the comments, and let’s start a chain reaction of positivity and networking. Together, we can build an engaging community where everyone feels welcome. What’s your favorite way to connect with others? #Engagement #CommunityBuilding #HelloWorld"
+2025-03-19 17:27:10,461 - INFO - Processed variations: ['"👋 Hi LinkedIn family! Today, I just wanted to take a moment to connect with you all. Whether you\'re a new connection, a familiar face, or someone I\'ve yet to meet, I’d love to hear from you! Let\'s make this platform a little more personal—what motivates you in your career? Share your stories or insights in the comments below! Let’s engage and inspire each other. #Networking #CareerGrowth #Community"', '"✨ Hello there! A simple \'hi\' can open doors to amazing conversations and opportunities. In the spirit of connection, I encourage you to say \'hi\' to someone today—be it a colleague, mentor, or even a new connection! You never know where a small greeting might lead. Let’s keep this community vibrant and supportive! What does \'connection\' mean to you? Share your thoughts! #Connection #Networking #Opportunities"', '"🌟 Hi everyone! Just popping in to remind you of the power of a friendly \'hi\'. In our fast-paced professional lives, we might forget to pause and reach out. Let’s turn this platform into a hub of interaction! Share your \'hi\' in the comments, and let’s start a chain reaction of positivity and networking. Together, we can build an engaging community where everyone feels welcome. What’s your favorite way to connect with others? #Engagement #CommunityBuilding #HelloWorld"']
+2025-03-19 17:27:10,462 - INFO - 127.0.0.1 - - [19/Mar/2025 17:27:10] "POST /api/generate-posts HTTP/1.1" 200 -
+2025-03-19 17:27:15,935 - INFO - 127.0.0.1 - - [19/Mar/2025 17:27:15] "GET /api/scheduled-posts?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 17:27:42,508 - INFO - Successfully posted to LinkedIn for 83tFlkfvbJ
+2025-03-19 17:27:43,718 - ERROR - Failed to post to LinkedIn for 83tFlkfvbJ: {"errorDetailType":"com.linkedin.common.error.BadRequest","message":"com.linkedin.content.common.exception.BadRequestResponseException: Content is a duplicate of urn:li:share:7308094319071027204","errorDetails":{"inputErrors":[{"description":"Duplicate post is detected","input":{},"code":"DUPLICATE_POST"}]},"status":422}
+2025-03-19 17:27:56,944 - INFO - 127.0.0.1 - - [19/Mar/2025 17:27:56] "GET /api/scheduled-posts?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 17:28:15,934 - INFO - 127.0.0.1 - - [19/Mar/2025 17:28:15] "GET /api/scheduled-posts?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 17:29:16,066 - INFO - 127.0.0.1 - - [19/Mar/2025 17:29:16] "GET /api/scheduled-posts?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 17:30:16,063 - INFO - 127.0.0.1 - - [19/Mar/2025 17:30:16] "GET /api/scheduled-posts?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 17:31:16,061 - INFO - 127.0.0.1 - - [19/Mar/2025 17:31:16] "GET /api/scheduled-posts?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 17:32:16,085 - INFO - 127.0.0.1 - - [19/Mar/2025 17:32:16] "GET /api/scheduled-posts?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 17:33:16,061 - INFO - 127.0.0.1 - - [19/Mar/2025 17:33:16] "GET /api/scheduled-posts?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 17:34:16,063 - INFO - 127.0.0.1 - - [19/Mar/2025 17:34:16] "GET /api/scheduled-posts?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 17:35:16,062 - INFO - 127.0.0.1 - - [19/Mar/2025 17:35:16] "GET /api/scheduled-posts?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 17:56:06,708 - INFO - 127.0.0.1 - - [19/Mar/2025 17:56:06] "[32mGET /api/linkedin-login HTTP/1.1[0m" 302 -
+2025-03-19 17:56:14,491 - INFO - User authenticated: 83tFlkfvbJ, Name: Prashant Upadhyay
+2025-03-19 17:56:14,492 - INFO - 127.0.0.1 - - [19/Mar/2025 17:56:14] "[32mGET /api/linkedin-callback?code=AQRXNKVEjnj6u2N_1yz9ECxjtWF23S1-4kq_3zm4f_iYmWn0MTHRWVkV2zQu5wVUKRq7d0S9w1pKN2cuIKxBhxIfG-NWxarvdIqM6CMs4wXIaE761gebfDtSgwFA9Nw36p6Rq0uCP2EGAPfht9eyIyBNpXtNQvRODu6QGcoXZobeBpBWVQSpnxX9AuP6kyJxU7VOO6yaE0EmBOiuBEc HTTP/1.1[0m" 302 -
+2025-03-19 17:56:15,072 - INFO - Returning profile for 83tFlkfvbJ: {'access_token': 'AQXhySPkaoQ7Y6rqDhNFxxkrBckR5blE0NBtqwiqd0owChDM_qv0pTh1SFTAoeNh1C4e-wiOA9-t1VMD3vH1VKUYTqnSs1oHf4TjU_-TZovVhv01_YZr8CAzMHhvCywV45TyxayULAa4Xkcwo9_VAKLfBC5jKhQloXbk4EpW-FJJub-UHQqIz-n2tUOGN7JXdeiWyX8sPyFFfc_pifrgbAR_jAxsryOOXZZ2rKn4TO1RihozhfkQLeRgN2wd_RvI9BdzYePqs_9k2F1rIBnQME22XBHeYUKtGkySRAEBwo7IH0LPwuFdcUBIHKjYGOigQKmunfOfhs0QqIYqY6NnmleX0P1lUQ', 'name': 'Prashant Upadhyay', 'designation': 'No Designation'}
+2025-03-19 17:56:15,072 - INFO - 127.0.0.1 - - [19/Mar/2025 17:56:15] "GET /api/me?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 17:56:15,074 - INFO - 127.0.0.1 - - [19/Mar/2025 17:56:15] "GET /api/analytics?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 17:56:20,544 - INFO - 127.0.0.1 - - [19/Mar/2025 17:56:20] "GET /api/analytics?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 17:56:34,404 - INFO - 127.0.0.1 - - [19/Mar/2025 17:56:34] "GET /api/scheduled-posts?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 17:56:59,571 - INFO - 127.0.0.1 - - [19/Mar/2025 17:56:59] "GET /api/scheduled-posts?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 17:57:59,563 - INFO - 127.0.0.1 - - [19/Mar/2025 17:57:59] "GET /api/scheduled-posts?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 18:09:00,938 - INFO -  * Detected change in '/home/prashant/Documents/work-related/projects/test/linkedin-agent/backend/app.py', reloading
+2025-03-19 18:09:01,980 - INFO -  * Restarting with stat
+2025-03-19 18:12:27,567 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-19 18:12:27,567 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-19 18:12:27,567 - INFO -  * Restarting with stat
+2025-03-19 18:12:29,624 - WARNING -  * Debugger is active!
+2025-03-19 18:12:29,627 - INFO -  * Debugger PIN: 144-034-646
+2025-03-19 18:18:04,276 - INFO -  * Detected change in '/home/prashant/Documents/work-related/projects/test/linkedin-agent/backend/app.py', reloading
+2025-03-19 18:18:04,624 - INFO -  * Restarting with stat
+2025-03-19 18:18:06,927 - WARNING -  * Debugger is active!
+2025-03-19 18:18:06,928 - INFO -  * Debugger PIN: 144-034-646
+2025-03-19 18:19:43,765 - INFO -  * Detected change in '/home/prashant/Documents/work-related/projects/test/linkedin-agent/backend/app.py', reloading
+2025-03-19 18:19:44,104 - INFO -  * Restarting with stat
+2025-03-19 18:19:46,433 - WARNING -  * Debugger is active!
+2025-03-19 18:19:46,435 - INFO -  * Debugger PIN: 144-034-646
+2025-03-19 18:20:01,190 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.144:5000
+2025-03-19 18:20:01,190 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-19 18:20:01,192 - INFO -  * Restarting with stat
+2025-03-19 18:20:05,088 - WARNING -  * Debugger is active!
+2025-03-19 18:20:05,089 - INFO -  * Debugger PIN: 144-034-646
+2025-03-19 18:20:05,118 - INFO - 127.0.0.1 - - [19/Mar/2025 18:20:05] "[32mGET /api/linkedin-login HTTP/1.1[0m" 302 -
+2025-03-19 18:20:10,740 - INFO - User authenticated: 83tFlkfvbJ, Name: Prashant Upadhyay
+2025-03-19 18:20:10,741 - INFO - 127.0.0.1 - - [19/Mar/2025 18:20:10] "[32mGET /api/linkedin-callback?code=AQQH1jcmKAmR51dDftrM2URp8PLy_grz8W0qegAGTTb6JefeVfE-8Cha8B4s8hfgiDc7QR0brlqpl3jxFaz-SrpxgUgbfFG-5UpDpf9ysMMRQw73DOXRIzRMYGLxZH1ByYVBT7dgmp8vhBKG45jlj8aDAn1MwvNFfJBcxVazpRvqP0oKJj3zJgb6mKxhBBUuaB2doYLgBznEpri66x4 HTTP/1.1[0m" 302 -
+2025-03-19 18:20:11,013 - INFO - Returning profile for 83tFlkfvbJ: {'access_token': 'AQWcvJXQUn0NeNIILOp6z61ZQ1hNJU4XOXjikTz_LwRnIn9quNrYtetI-XzgYHvCNyD1fQ5KyPy_2ro4Nixhh7hDZCs3K-c6qLHJBTec2AbWIMD0f3IZA3w5Jqjc1bnf7EF8lcPtyAD0m_puc2A6BqMktb3RPXQPfZN9u4Pcxy5jbM2w478-cyQdNFmTGLyrldPD_c5-VADoYFdWfaCAlG2PylZwD1UFCq8Gj-OIGVze9B2aIS2CP60yk3nQR8eNMNSlBCOyceC7MBtYAYOuudyZy_NlpYYgmGSKD-LobXNLghH3TWalquhkEd3c9y3Dm-uFXK_0si2oJfik4KvWmhCx68RwBg', 'name': 'Prashant Upadhyay', 'designation': 'No Designation'}
+2025-03-19 18:20:11,013 - INFO - 127.0.0.1 - - [19/Mar/2025 18:20:11] "GET /api/me?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 18:20:11,015 - INFO - 127.0.0.1 - - [19/Mar/2025 18:20:11] "GET /api/analytics?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 18:20:55,529 - INFO - 127.0.0.1 - - [19/Mar/2025 18:20:55] "OPTIONS /api/generate-posts HTTP/1.1" 200 -
+2025-03-19 18:20:55,556 - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-03-19 18:21:00,131 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 18:21:00,158 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-19 18:21:00,163 - INFO - Raw OpenAI output: 1. 🌟 **Revolutionizing Development in India through AI** 🌟  
+As we witness rapid technological advancements, Artificial Intelligence (AI) is becoming a cornerstone in transforming India's development landscape. From enhancing agricultural productivity through predictive analytics to streamlining healthcare delivery with telemedicine solutions, AI is here to disrupt tradition! 🌱🩺✨  
+Imagine farmers accessing real-time weather data and market trends powered by AI, leading to informed decision-making and higher yield production. Similarly, with AI-driven diagnostics, healthcare professionals can detect diseases earlier, providing better treatment pathways for patients. As India continues to focus on entrepreneurship and innovation, adopting AI can boost productivity, create jobs, and advance sustainable development goals. Together, we can harness the power of AI to build a better future for all. What are your thoughts on AI impacts in your industry? 💬
+
+2. 📊 **AI: The Game Changer in India’s Development Sector** 📊  
+In the rapidly evolving landscape of India, the integration of Artificial Intelligence into various sectors is nothing short of revolutionary! Whether it’s optimizing traffic management with intelligent transportation systems or improving educational outcomes with personalized learning platforms, AI is a catalyst for change. 🚦📚  
+The development landscape is shifting from traditional methods to data-driven solutions that enhance efficiency and effectiveness. AI empowers businesses and government agencies alike to make data-informed decisions, leading to smarter allocation of resources and impactful policy-making. As we navigate through this transition, it is crucial to upskill our workforce and invest in AI technologies that address local challenges. How has AI impacted your professional journey? Let’s engage in a conversation! 🔗
+
+3. 🌐 **India's Future: Embracing AI for Sustainable Development** 🌐  
+Artificial Intelligence is not just a trend; it's a transformative force reshaping India's development strategy. By leveraging AI, we can tackle pressing challenges such as poverty, education inequality, and healthcare access. From smart city solutions that optimize water and energy usage to AI-driven mental health applications providing support to those in need, the possibilities are limitless! 🌇💡  
+The potential for societal improvement is immense, but successful implementation requires collaboration between tech innovators, policymakers, and community leaders. We must ensure AI is used ethically and inclusively, empowering all citizens to thrive in this digital era. Together, let’s pave the way for a sustainable and equitable future with AI at the helm. Are you ready to explore this journey together? 🚀
+2025-03-19 18:21:00,164 - INFO - Processed variations: ["🌟 **Revolutionizing Development in India through AI** 🌟  \nAs we witness rapid technological advancements, Artificial Intelligence (AI) is becoming a cornerstone in transforming India's development landscape. From enhancing agricultural productivity through predictive analytics to streamlining healthcare delivery with telemedicine solutions, AI is here to disrupt tradition! 🌱🩺✨  \nImagine farmers accessing real-time weather data and market trends powered by AI, leading to informed decision-making and higher yield production. Similarly, with AI-driven diagnostics, healthcare professionals can detect diseases earlier, providing better treatment pathways for patients. As India continues to focus on entrepreneurship and innovation, adopting AI can boost productivity, create jobs, and advance sustainable development goals. Together, we can harness the power of AI to build a better future for all. What are your thoughts on AI impacts in your industry? 💬", '📊 **AI: The Game Changer in India’s Development Sector** 📊  \nIn the rapidly evolving landscape of India, the integration of Artificial Intelligence into various sectors is nothing short of revolutionary! Whether it’s optimizing traffic management with intelligent transportation systems or improving educational outcomes with personalized learning platforms, AI is a catalyst for change. 🚦📚  \nThe development landscape is shifting from traditional methods to data-driven solutions that enhance efficiency and effectiveness. AI empowers businesses and government agencies alike to make data-informed decisions, leading to smarter allocation of resources and impactful policy-making. As we navigate through this transition, it is crucial to upskill our workforce and invest in AI technologies that address local challenges. How has AI impacted your professional journey? Let’s engage in a conversation! 🔗', "🌐 **India's Future: Embracing AI for Sustainable Development** 🌐  \nArtificial Intelligence is not just a trend; it's a transformative force reshaping India's development strategy. By leveraging AI, we can tackle pressing challenges such as poverty, education inequality, and healthcare access. From smart city solutions that optimize water and energy usage to AI-driven mental health applications providing support to those in need, the possibilities are limitless! 🌇💡  \nThe potential for societal improvement is immense, but successful implementation requires collaboration between tech innovators, policymakers, and community leaders. We must ensure AI is used ethically and inclusively, empowering all citizens to thrive in this digital era. Together, let’s pave the way for a sustainable and equitable future with AI at the helm. Are you ready to explore this journey together? 🚀"]
+2025-03-19 18:21:00,164 - INFO - 127.0.0.1 - - [19/Mar/2025 18:21:00] "POST /api/generate-posts HTTP/1.1" 200 -
+2025-03-19 18:21:30,871 - INFO - 127.0.0.1 - - [19/Mar/2025 18:21:30] "GET /api/scheduled-posts?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 18:22:01,732 - INFO - 127.0.0.1 - - [19/Mar/2025 18:22:01] "OPTIONS /api/schedule-post HTTP/1.1" 200 -
+2025-03-19 18:22:01,738 - INFO - 127.0.0.1 - - [19/Mar/2025 18:22:01] "POST /api/schedule-post HTTP/1.1" 200 -
+2025-03-19 18:22:01,746 - INFO - 127.0.0.1 - - [19/Mar/2025 18:22:01] "GET /api/scheduled-posts?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 18:22:04,221 - INFO - 127.0.0.1 - - [19/Mar/2025 18:22:04] "GET /api/scheduled-posts?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 18:22:06,357 - INFO - Successfully posted to LinkedIn for 83tFlkfvbJ
+2025-03-19 18:23:04,229 - INFO - 127.0.0.1 - - [19/Mar/2025 18:23:04] "GET /api/scheduled-posts?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 18:23:56,329 - INFO - 127.0.0.1 - - [19/Mar/2025 18:23:56] "[35m[1mGET /api/analytics?user_urn=83tFlkfvbJ HTTP/1.1[0m" 500 -
+2025-03-19 18:24:02,648 - INFO - 127.0.0.1 - - [19/Mar/2025 18:24:02] "GET /api/scheduled-posts?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 18:24:03,815 - INFO - 127.0.0.1 - - [19/Mar/2025 18:24:03] "[35m[1mGET /api/analytics?user_urn=83tFlkfvbJ HTTP/1.1[0m" 500 -
+2025-03-19 18:24:12,985 - INFO - 127.0.0.1 - - [19/Mar/2025 18:24:12] "GET /api/scheduled-posts?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 18:24:20,143 - INFO - 127.0.0.1 - - [19/Mar/2025 18:24:20] "[35m[1mGET /api/analytics?user_urn=83tFlkfvbJ HTTP/1.1[0m" 500 -
+2025-03-19 18:24:31,258 - INFO - 127.0.0.1 - - [19/Mar/2025 18:24:31] "[32mGET /api/linkedin-login HTTP/1.1[0m" 302 -
+2025-03-19 18:24:33,254 - INFO - User authenticated: 83tFlkfvbJ, Name: Prashant Upadhyay
+2025-03-19 18:24:33,255 - INFO - 127.0.0.1 - - [19/Mar/2025 18:24:33] "[32mGET /api/linkedin-callback?code=AQS_XtE_OD8_0415hevImrI3Z46CNewMR8krfQaAJl-CCIhVCejY_Mm_dd_9gezRZPlhyX1yFDcuVa82gxGIFkOkHYL1mkjuLXzOKuHnHzd3HnDri8QYS9YM1JFTRqqyeZOSmrmUj-RqVkx7mqWVtpKxHXar1jMg4siO5OrNzIrv6NkV5FB6tiFmfdZLvoRcRqvlVBLTn1HhDh-XpNg HTTP/1.1[0m" 302 -
+2025-03-19 18:24:33,508 - INFO - Returning profile for 83tFlkfvbJ: {'access_token': 'AQWJTx_QL4iywsNw3hWCfhjV7s-MFC12-y2PQdXb60VBNo6Io-RPSHV5K2SedVInMLu5MCz9SU_QcmcmP9LCBTq0Nje5Li5NZ-lF-fuhQ9FKhGBE4y0PdQk4gOlF8SwLtjNNHWv_YIE5XPGNzisDdLzSWTU07JV3Ojn3vHSmqUDW8IfNV52iIWEl51KUco029i62BhU6jDjlt9hLcsl2gIl7sF0iz_sGgGhKrKIq69AgDTZbEsvTe-DDzls_bLHKy3lXOUNNt1ripRewV-kijl_2rZzaSsmVNzHLc_ZuFtgUc3l_vJTy3R4Q-v9taZ-SAo17v6SWTE3LvTePOHi1SiN81R0l1Q', 'name': 'Prashant Upadhyay', 'designation': 'No Designation'}
+2025-03-19 18:24:33,513 - INFO - 127.0.0.1 - - [19/Mar/2025 18:24:33] "[35m[1mGET /api/analytics?user_urn=83tFlkfvbJ HTTP/1.1[0m" 500 -
+2025-03-19 18:24:33,513 - INFO - 127.0.0.1 - - [19/Mar/2025 18:24:33] "GET /api/me?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 18:24:35,988 - INFO - 127.0.0.1 - - [19/Mar/2025 18:24:35] "[35m[1mGET /api/analytics?user_urn=83tFlkfvbJ HTTP/1.1[0m" 500 -
+2025-03-19 18:25:10,267 - INFO - 127.0.0.1 - - [19/Mar/2025 18:25:10] "GET /api/scheduled-posts?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 18:27:47,822 - INFO -  * Detected change in '/home/prashant/Documents/work-related/projects/test/linkedin-agent/backend/app.py', reloading
+2025-03-19 18:27:48,188 - INFO -  * Restarting with stat
+2025-03-19 18:29:43,356 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.144:5000
+2025-03-19 18:29:43,356 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-19 18:29:43,357 - INFO -  * Restarting with stat
+2025-03-19 18:29:46,443 - WARNING -  * Debugger is active!
+2025-03-19 18:29:46,443 - INFO -  * Debugger PIN: 144-034-646
+2025-03-19 18:56:16,610 - INFO - 127.0.0.1 - - [19/Mar/2025 18:56:16] "[32mGET /api/linkedin-login HTTP/1.1[0m" 302 -
+2025-03-19 18:56:22,453 - INFO - User authenticated: 83tFlkfvbJ, Name: Prashant Upadhyay
+2025-03-19 18:56:22,454 - INFO - 127.0.0.1 - - [19/Mar/2025 18:56:22] "[32mGET /api/linkedin-callback?code=AQTocXL9bxbg4TjU9I1-2QsCafR1Y-a-ZgECf1vSAbE1qIEEJoRtWTUqmvQzD2m_GdbWBYE_eOjQAI5sWd75NlkYtETsVUryTjHPo8jbSf-C5LroQvVGwkIGDJdSPNdmWxKWWUEe-7QW9bfXZkEiS7_DwWRVPnYa4n6GFpAPJLKb9jwqxsWV9JKT1ICBSJ_3xKJ4KwDm-2Z8u3-LEgE HTTP/1.1[0m" 302 -
+2025-03-19 18:56:22,719 - INFO - Returning profile for 83tFlkfvbJ: {'access_token': 'AQXbE6ZtyZxkTvfqCul6drQuOuAHs-gGj4QhDO8GobU7ExAS8PXC-VwFDM279Yz8-4MCmBnyAzyot4bWn6RTw2H7P5ZjyjBNJrm1KUsgD8SGUmj9d8JpymPC8U1dLPLRXwlSzR_L84j_BpDkErPIQGhp4ETWc65AUJhIHEax17Q-66pApeHs3CmTj6PEk_gW05WwsIh3Eha3-x6JODCrGHoMtLb02zvoi47wvHvd8qfpvfTSZA4YsOC-0rhJ037U57q-dLqxhWu9GQlhtdRD3vk5bq_edQR3_IUNg6hpFVW9b4ofUKz17wHejQJjCoPoYF1yuEh41re7TfOFwsmImaDjwwJeVA', 'name': 'Prashant Upadhyay', 'designation': 'No Designation'}
+2025-03-19 18:56:22,719 - INFO - 127.0.0.1 - - [19/Mar/2025 18:56:22] "GET /api/me?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
+2025-03-19 18:56:22,720 - INFO - 127.0.0.1 - - [19/Mar/2025 18:56:22] "GET /api/analytics?user_urn=83tFlkfvbJ HTTP/1.1" 200 -
