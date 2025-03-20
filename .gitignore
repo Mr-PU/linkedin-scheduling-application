@@ -1,6 +1,6 @@
 backend/venv
 backend/.env
-
+backend/linkedin_agent.log
 
 venv
 .env
